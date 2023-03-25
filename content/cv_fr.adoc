@@ -1,0 +1,116 @@
+---
+title: "CV"
+date: 2023-03-05T19:04:47+01:00
+draft: false
+---
+
+:toc:
+:toc-title: Sommaire
+
+[.text-center]
+*Lead Data Scientist & Engineer*
+// image::../media/photo_linkedin_2020.png[width=120,align=center]
+
+
+
+== RÉSUMÉ PROFESSIONNEL
+
+
+* Data Scientist & Ingénieur avec plus de 7 ans d'expérience en IA.
+* Amélioration des opérations de maintenance et sécurité du réseau ferroviaire SNCF grâce à des algorithmes et pipelines de traitement des données. Augmentation des taux de détection de ~10% à 100%.
+*  Passionné par la formation et le mentorat. Aime relever les nouveaux défis pour obtenir des résultats positifs pour les clients.
+* Expertise en analyse de données (Python, SQL, Pandas, Spark), apprentissage automatique (Spark ML, MLflow) et informatique en nuage (AWS, Azure, Databricks).
+
+// ##########
+// ##########
+// ##########
+
+== EXPÉRIENCE
+
+=== Lead Data Scientist & Engineer | November 2020 - Present | SNCF Réseau, Saint-Denis (93), France
+// Business acumen
+* Dirigé l'assistance 4+ clients de la SNCF dans la définition de leurs besoins, la traduction des exigences métier en problèmes techniques, l'engagement dans le développement agile et la validation, le tout dans le but de fournir des solutions d'IA de bout en bout.
+// Data engineering
+* Chargé principal de la validation, de l'ingestion et de la préparation des pipelines de données massives en continu provenant des trains, pour un contrat de données d'une valeur de 900 000 € (Python, SQL, Apache Spark, Databricks, Delta Live Table et Microsoft Azure).
+// Lead technique
+* Encadré avec succès une équipe de 4 data scientists et data engineers juniors, en leur permettant d'atteindre leur plein potentiel et en assurant un suivi technique rigoureux des projets.
+// Data Science & ML
+* Développé une application de détection de pannes automatisée pour améliorer la maintenance des capteurs de vitesse sur le réseau ferré français, en effectuant des analyses de données massives, en construisant des modèles de machine learning et en mettant en place des tableaux de bord Power BI. Résultat : le taux de détection a augmenté de 100%, passant de 5% à 100%, et l'efficacité a été significativement améliorée.
+
+// ##########
+
+// === Lead Data Scientist & ML Engineer | September 2020 - Present | OpenClassrooms. Paris, France
+
+// // Team Leadership
+// * Successfully led and guided a team of 10+ data scientists and ML engineers in their professional development, providing valuable guidance for project management and evaluating performance to ensure successful project delivery.
+
+// // Skill Development
+// * Encouraged individual skill development by providing training resources and tracking progress on projects.
+
+// // Clear Goals
+// * Set clear goals to maintain a productive work pace and motivated the team to achieve successful certifications on OpenClassrooms.
+
+// ##########
+
+=== Data Scientist | March 2020 - September 2020 | TAG Heuer / LVMH W&J, Paris (75), France
+
+// Traitement des données IoT
+* Amélioration de la montre TAG Heuer Connected en développant des algorithmes intelligents pour traiter les données IoT, corriger les anomalies avec des techniques sophistiquées et augmenter la précision des métriques sportives de la montre.
+* Traité, nettoyé, préparé et analysé différents types de données (GPS, nombre de pas, etc.) pour identifier des informations pertinentes.
+Mis en place d'algorithmes de machine learning pour détecter les anomalies dans les données.
+// Déploiement
+* Déploiement d'un tableau de bord convivial avec Docker et Streamlit, permettant aux parties prenantes non techniques d'accéder et de comprendre les informations générées par les données.
+* Communiqué les résultats et participé à des réunions avec des équipes pluridisciplinaires pour assurer l'alignement et la compréhension dans toute l'organisation.
+
+
+// ##########
+
+
+=== Data Scientist - Computer Vision Engineer | January 2019 - December 2019 | Drone Volt Group, Villepinte (93), France
+
+// Travail en équipe
+* Collaboré au sein d'une équipe agile basée aux Pays-Bas pour développer le SDK de la caméra à intelligence artificielle infrarouge, en contribuant à ses fonctionnalités et à ses caractéristiques.
+// Science des données
+* Développé un modèle d'apprentissage en profondeur de détection d'incendie en temps réel en collectant, préparant et annotant des images. Déployé le modèle sur une caméra de drone en utilisant les technologies Python, Tensorflow, Docker et NVIDIA GPU. Résultat : une augmentation de 20% de l'exactitude.
+* Rédigé la documentation technique pour la solution d'IA et fourni une formation à l'équipe commerciale chez DRONE VOLT sur son utilisation, en leur fournissant les connaissances nécessaires pour vendre efficacement le produit aux clients et aux investisseurs.
+* Formé l'équipe commerciale chez DRONE VOLT à l'utilisation de la caméra IA développée et présenté le produit aux clients et aux investisseurs, ce qui a entraîné une augmentation significative de l'intérêt et de l'investissement (1 132 millions d'euros).
+
+// ##########
+
+=== Ingénieur R&D Traitement d'images | October 2015 - December 2018 | Institut d'Astrophysique Spatiale. Orsay (91), France
+
+// Teamwork
+* Collaboré avec 14 pays participants dans le projet du télescope spatial James Webb (JWST : *NASA/ESA/CSA*) pour innover une solution de traitement de données, avec un budget supérieur à 10 milliards de dollars.
+// Research and Development
+* Conçu et développé un simulateur de données pour l'imageur infrarouge MIRI, et un outil de reconstruction de données hyper-spectrales du télescope JWST à l'aide des modèles machine learning et des mathématiques avancés, améliorant significativement la précision des données.
+* Effectué une veille technologique et des recherches bibliographiques pour maintenir la pertinence de la solution et garantir sa conformité aux normes internationales.
+// Publications and Presentations
+* Rédigé plus de 8 articles scientifiques et présenté les travaux lors de 3 conférences internationales, communiquant avec succès les résultats au public.
+* Collaboré à la création d'un package Python et d'un article de journal pour diffuser largement la solution auprès de la communauté scientifique.
+
+
+// ##########
+// ##########
+
+== ÉDUCATION
+
+* Doctorat | Université Paris Saclay, France | Science et Technologie de l’Information | 2018
+* Master | Université de Bordeaux, France | Traitement du Signal et de l’Image | 2015
+* Diplôme Ingénieur | École Nationale Polytechnique, Algérie | Ingénierie Électronique | 2012
+
+== CERTIFICATIONS
+* Lakehouse Fundamentals, Databricks, 2022
+* Mentor AI , HackerMaker, 2019
+
+
+== COMPÉTENCES
+* Machine Learning: Regression, classification, clustering | Python, SQL | PowerBI, Tableau, Plotly | NumPy, pandas, Spark | TensorFlow, Keras, PyTorch | Scikit-learn, MLflow, HyperOpt | OpenCV, Pillow |  Git, Docker, GitHub | Microsoft Azure, AWS, GCP, Databricks
+
+// === Interests
+// * Author of 8+ scientific articles and trainer in Big Data and Data Science
+// * Passionate about running and badminton
+
+
+
+
+

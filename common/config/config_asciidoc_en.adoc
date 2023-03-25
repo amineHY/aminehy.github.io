@@ -1,0 +1,18 @@
+:doctype: article
+:html-source: html
+:icons: font
+:lang: us-US
+:last-update-label!:
+:nofooter:
+// :revdate: 04/02/2023
+// :revnumber: 0.1
+:source-highlighter: pygments
+:title: Amine Hadj-Youcef
+:allow-uri-read: true
+:docinfo: shared
+:docinfodir: ../common/meta
+:highlightjs-languages: python
+:sectnums!:
+:sectanchors:
+:toc:
+:toc-title: Table of Content

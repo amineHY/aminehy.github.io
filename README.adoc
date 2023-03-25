@@ -1,0 +1,51 @@
+= README
+:toc: auto
+
+
+== Installation
+
+* Install link:https://go.dev/doc/install[Go]
+* Install link:https://gohugo.io/installation/linux/[Hugo]
+
+* link:https://gohugo.io/getting-started/quick-start/[quick-start]
+
+
+* Add `env` variable ao `~/.bashrc`
+
+    export PATH=$PATH:/usr/local/go/bin
+
+[IMPORTANT]
+Make sure to install `Go` first, then `Hugo`
+
+== Create a Hugo website
+
+* Follow the steps here: link:https://gohugo.io/getting-started/quick-start/[quicksstart project]
+
+== Start Hugo’s development server
+
+[source]
+----
+hugo server
+----
+
+== Adding content to the website
+
+[source]
+----
+hugo new posts/my-first-post.md
+----
+
+* Build the website (including draft posts)
++
+[source]
+----
+hugo server --buildDrafts
+hugo server -D
+----
+
+
+== Configure the site
+
+== To set a specific port
+
+hugo server --port=8080

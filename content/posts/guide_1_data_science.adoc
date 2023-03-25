@@ -1,0 +1,222 @@
+---
+title: "Guide Préparation des données pour l'Analyse Exploratoire"
+date: 2022-03-05T08:35:18+01:00
+draft: false
+---
+
+:sectnums:
+:toc:
+:toc-title: Sommaire
+
+== Introduction
+
+Cet article est un guide des étapes impliquées dans un projet d'apprentissage automatique. Il couvre différentes étapes telles que la préparation des données, l'analyse des données, la modélisation et la validation. L'étape de préparation des données implique le nettoyage et la préparation des données pour la modélisation, y compris le nettoyage des données, la sélection des caractéristiques, la transformation des variables et la division des données.
+
+L'étape de modélisation comprend l'apprentissage supervisé et non supervisé, avec des algorithmes tels que la classification, la régression ou le regroupement, et nécessite une attention minutieuse pour éviter les fuites de données. L'étape de modélisation comprend la sélection des caractéristiques et des variables cibles, la division des données, la transformation des variables, la validation croisée et l'entraînement du modèle d'apprentissage automatique. La dernière étape consiste à choisir le bon algorithme de modélisation et à évaluer sa performance.
+
+
+== Importation des données
+Charger les données depuis différentes sources telles que des fichiers CSV, JSON, Parquet, etc.
+
+Vous pouvez charger un fichier CSV avec `pandas` en utilisant la méthode `read_csv` comme ceci :
+
+{{< highlight python >}}
+import pandas as pd
+
+df = pd.read_csv("file.csv")
+{{< /highlight >}}
+
+Vous pouvez charger un fichier JSON avec `pandas` en utilisant la méthode `read_json` comme ceci :
+
+{{< highlight python >}}
+df = pd.read_json("file.json")
+{{< /highlight >}}
+
+Vous pouvez charger un fichier Parquet avec `pandas` en utilisant la méthode `read_parquet` comme ceci :
+
+{{< highlight python >}}
+df = pd.read_parquet("file.parquet")
+{{< /highlight >}}
+
+Il est important de noter que pour utiliser les méthodes read_parquet, vous devrez avoir installé la bibliothèque `fastparquet` en plus de `pandas`.
+
+== Nettoyage des données (Data Cleaning)
+
+Supprimer les valeurs manquantes, les valeurs aberrantes et les lignes dupliquées, afin d'obtenir des données propres pour l'analyse.
+
+Voici un exemple de code
+{{< highlight python >}}
+import pandas as pd
+
+# charger le fichier csv
+df = pd.read_csv('data.csv')
+
+# supprimer les valeurs manquantes
+df = df.dropna()
+
+# supprimer les valeurs aberrantes
+df = df[(df - df.mean()).abs() <= 3 * df.std()]
+
+# supprimer les lignes dupliquées
+df = df.drop_duplicates()
+{{< /highlight >}}
+
+== Choix des features pertinents
+
+Sélectionner les features (colonnes) qui seront les plus utiles pour l'analyse exploratoire.
+
+Voici un exemple de code Python pour choisir les features pertinents avec Pandas :
+
+{{< highlight python >}}
+import pandas as pd
+
+# Charger les données dans un DataFrame
+df = pd.read_csv("data.csv")
+
+# Sélectionner un sous-ensemble de features (colonnes)
+selected_features = ["feature1", "feature2", "feature3"]
+df = df[selected_features]
+
+# Vérifier les données pour vous assurer que les colonnes sont sélectionnées
+print(df.head())
+{{< /highlight >}}
+
+
+== Ajout / Transformation des features (Features Engineering)
+Créer de nouvelles features ou transformer les features existantes pour les rendre plus adaptées à l'analyse.
+L'ajout ou la transformation des features peut être fait avec le code suivant:
+
+{{< highlight python >}}
+# Ajout de nouvelles features
+df['new_feature'] = df['existing_feature_1'] + df['existing_feature_2']
+
+# Transformation des features existantes
+df['existing_feature'] = df['existing_feature'].apply(lambda x: np.log(x + 1))
+{{< /highlight >}}
+
+
+== (Optionnel) Réduction de dimension
+Utiliser des techniques telles que l'analyse en composantes principales (ACP) pour réduire le nombre de features.
+
+Voici un exemple de code Python pour effectuer la réduction de dimension par analyse en composantes principales (ACP) à l'aide de la bibliothèque scikit-learn :
+
+{{< highlight python >}}
+from sklearn.decomposition import PCA
+
+# Initialiser le modèle de réduction de dimension
+pca = PCA(n_components=2)
+
+# Ajuster le modèle sur les données d'entraînement
+pca.fit(X_train)
+
+# Appliquer la réduction de dimension aux données d'entraînement et de validation
+X_train_pca = pca.transform(X_train)
+X_valid_pca = pca.transform(X_valid)
+
+{{< /highlight >}}
+
+Ici, nous initialisons le modèle PCA avec `n_components=2` pour réduire les données à deux dimensions. Nous ajustons (entraînons) ensuite le modèle sur les données d'entraînement `X_train` et appliquons la réduction de dimension aux données d'entraînement et de validation `X_train_pca` et `X_valid_pca`.
+
+
+
+== Vérification de la qualité des données
+Vérifier que les données sont fiables et complètes et corriger les erreurs ou les valeurs manquantes.
+
+
+Voici un exemple de code Python pour vérifier la qualité des données et corriger les erreurs ou les valeurs manquantes :
+
+{{< highlight python >}}
+import pandas as pd
+
+# Charger le dataset
+df = pd.read_csv("dataset.csv")
+
+# Vérifier les valeurs manquantes
+print("Valeurs manquantes avant nettoyage :")
+print(df.isnull().sum())
+
+# Supprimer les lignes avec des valeurs manquantes
+df = df.dropna()
+
+# Vérifier les valeurs manquantes après suppression
+print("Valeurs manquantes après nettoyage :")
+print(df.isnull().sum())
+
+# Supprimer les doublons
+df = df.drop_duplicates()
+
+# Vérifier les valeurs aberrantes
+print("Valeurs aberrantes avant nettoyage :")
+print(df.describe())
+
+# Supprimer les valeurs aberrantes
+df = df[(df > df.mean() - 3*df.std()) & (df < df.mean() + 3*df.std())]
+
+# Vérifier les valeurs aberrantes après suppression
+print("Valeurs aberrantes après nettoyage :")
+print(df.describe())
+{{< /highlight >}}
+
+== Exploration des données
+Utiliser des méthodes telles que des graphiques, des statistiques descriptives, des corrélations, etc. pour comprendre les relations entre les features et les tendances dans les données.
+
+Voici un code pour explorer les données avec des graphiques et des statistiques descriptives en utilisant le package pandas en Python:
+
+{{< highlight python >}}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Charger le jeu de données dans un dataframe
+df = pd.read_csv("data.csv")
+
+# Afficher les informations générales sur les données
+print(df.info())
+
+# Afficher les statistiques descriptives pour les features numériques
+print(df.describe())
+
+# Dessiner des histogrammes pour les features numériques
+df.hist(bins=50, figsize=(20,15))
+plt.show()
+
+# Calculer la corrélation entre les features numériques
+print(df.corr())
+
+# Dessiner des graphiques de dispersion pour les paires de features numériques
+pd.plotting.scatter_matrix(df, figsize=(12, 8))
+plt.show()
+{{< /highlight >}}
+
+Notez que les étapes décrites ci-dessus ne sont qu'un exemple et peuvent varier en fonction des données et des besoins de l'analyse. Il est important de s'assurer que les graphiques et les statistiques choisis sont pertinents pour le problème à résoudre et les données à explorer.
+
+== Résumé et visualisation des données
+Visualiser les données pour comprendre les relations entre les variables et pour identifier des tendances ou des modèles cachés.
+
+Voici un code simple en Python utilisant Pandas et Matplotlib pour effectuer un résumé et une visualisation des données:
+
+
+{{< highlight python >}}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Charger les données dans un DataFrame pandas
+df = pd.read_csv('data.csv')
+
+# Aperçu des données
+print(df.head())
+
+# Statistiques descriptives
+print(df.describe())
+
+# Visualisation de la distribution de la variable cible
+plt.hist(df['target'])
+plt.show()
+
+# Visualisation de la relation entre 2 features numériques
+plt.scatter(df['feature_1'], df['feature_2'])
+plt.xlabel('feature_1')
+plt.ylabel('feature_2')
+plt.show()
+{{< /highlight >}}
+
+Ce code lit un fichier CSV et utilise les méthodes `head()` et `describe()` de `Pandas` pour obtenir un aperçu des données et des statistiques descriptives. Il utilise également `Matplotlib` pour visualiser la distribution de la variable cible et la relation entre deux features numériques.

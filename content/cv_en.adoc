@@ -1,0 +1,123 @@
+---
+title: "Resume"
+date: 2023-03-05T19:04:39+01:00
+draft: true
+---
+
+
+[.text-center]
+*Lead Data Scientist & Engineer, Expert in Spark & Databricks*
+// image::../media/photo_linkedin_2020.png[width=120,align=center]
+
+[.text-center]
+image:https://cdn-icons-png.flaticon.com/512/126/126341.png[width=15,align=center] +33 6 82 52 42 06
+image:https://cdn-icons-png.flaticon.com/512/482/482138.png[width=15,align=center] hadjyoucef.amine@gmail.com
+image:https://cdn-icons-png.flaticon.com/512/484/484167.png[width=15,align=center] Paris, France
+image:https://cdn-icons-png.flaticon.com/512/1006/1006771.png[width=15,align=center] https://aminehy.io/  
+image:https://cdn-icons-png.flaticon.com/512/197/197374.png[width=15,align=center] image:https://cdn-icons-png.flaticon.com/512/197/197560.png[width=15,align=center]  Fluent
+
+
+
+== PROFESSIONAL SUMMARY
+
+
+* Data Scientist & Engineer with 7+ years of experience in AI.
+* Improved maintenance operations and safety within SNCF railway network through algorithms and data processing pipelines. Increased detection rates from ~10% to 100%.
+* Passionate about training and mentoring. Enjoys tackling new challenges to deliver positive outcomes for clients.
+* Expertise in data analysis (Python, SQL, Pandas, Spark), machine learning (Spark ML, MLflow) and cloud computing (AWS, Azure, Databricks).
+
+// ##########
+// ##########
+// ##########
+
+== EXPERIENCE
+
+=== Lead Data Scientist & Engineer | November 2020 - Present | SNCF Réseau, Saint-Denis (93), France
+// Business acumen
+* Assisted more than 4 SNCF clients in defining their needs, translating business requirements into technical problems, engaging in agile development and validation, all with the aim of providing end-to-end AI solutions.
+// Data engineering
+* Led the validation, ingestion, and preparation of continuous, massive data pipelines from trains for a data contract worth €900,000 (Python, SQL, Apache Spark, Databricks, Delta Live Table, and Microsoft Azure).
+// Technical leadership
+* Successfully supervised a team of 4 juniors data scientists and data engineers, enabling them to reach their full potential and ensuring rigorous technical oversight of projects.
+// Data Science & ML
+* Developed an automated fault detection application to improve maintenance of speed sensors on the French railway network, leveraging massive data analysis, machine learning model development, and setting up Power BI dashboards. Result: achieved a 100% increase in detection rate from 5% to 100%, and significant gains in efficiency.
+
+// ##########
+
+// === Lead Data Scientist & ML Engineer | September 2020 - Present | OpenClassrooms. Paris, France
+
+// // Team Leadership
+// * Successfully led and guided a team of 10+ data scientists and ML engineers in their professional development, providing valuable guidance for project management and evaluating performance to ensure successful project delivery.
+
+// // Skill Development
+// * Encouraged individual skill development by providing training resources and tracking progress on projects.
+
+// // Clear Goals
+// * Set clear goals to maintain a productive work pace and motivated the team to achieve successful certifications on OpenClassrooms.
+
+// ##########
+
+=== Data Scientist | March 2020 - September 2020 | TAG Heuer / LVMH W&J, Paris (75), France
+
+// IoT data processing
+* Developed intelligent algorithms to process IoT data and increase the accuracy of sports metrics for the TAG Heuer Connected watch.
+Processed, cleaned, prepared, and analyzed various data types (GPS, step count, etc.) to identify meaningful insights.
+// Machine learning
+* Implemented machine learning algorithms to detect anomalies in the data, resulting in a 15% reduction in false positives and a 10% increase in anomaly detection rate.
+Utilized sophisticated techniques to correct anomalies in the data, leading to a 25% increase in data accuracy.
+// Deployment
+* Deployed a user-friendly dashboard using Docker and Streamlit, enabling non-technical stakeholders to access and understand the insights generated from the data.
+// Communication
+* Communicated results and participated in meetings with cross-functional teams, ensuring alignment and understanding across the organization.
+
+
+// ##########
+
+
+=== Data Scientist - Computer Vision Engineer | January 2019 - December 2019 | Drone Volt Group, Villepinte (93), France
+
+// Teamwork
+* Worked collaboratively with an agile team based in Netherland to develop the SDK of the infrared artificial intelligent camera, contributing to its AI application and functionalities.
+// Data Science
+* Developed a real-time fire detection deep learning model by collecting, preparing, and annotating images. Deployed the model on a drone camera using Python, Tensorflow, Docker, and NVIDIA GPU technologies. Resulted in a 20% increase in accuracy.
+* Authored technical documentation for the AI solution and provided training to the commercial team at DRONE VOLT on its use, equipping them with the necessary knowledge to effectively sell the product to clients and investors.
+* Trained the commercial team at DRONE VOLT on the use of the developed AI camera and presented it to clients and investors, resulting in a significant increase of interest and investment (1,132 million euros).
+
+// ##########
+
+=== R&D Signal and Image Processing Engineer | October 2015 - December 2018 | Institute of Space Astrophysics. Orsay (91), France
+
+// Teamwork
+* Collaborated with 14 participating countries in the James Webb Space Telescope (JWST: NASA/ESA/CSA) project to innovate a data processing solution, with a budget exceeding 10 billion dollars.
+// Research and Development
+* Designed and developed a data simulator for the MIRI infrared imager and a hyper-spectral data reconstruction tool for the JWST telescope using machine learning models and advanced mathematics, significantly improving data accuracy.
+* Conducted technological monitoring and bibliographic research to maintain solution relevance and ensure compliance with international standards.
+// Publications and Presentations
+* Authored over 8 scientific articles and presented the work at 3 international conferences, successfully communicating the results to the public.
+* Collaborated in creating a Python package and a journal article to widely disseminate the solution within the scientific community.
+
+
+// ##########
+// ##########
+
+== EDUCATION
+* Doctorate  | Paris Saclay University, France | Information Science and Technology | 2018
+* Master |  Bordeaux University, France | Signal and Image Processing | 2015
+* Master's degree | Ecole Nationale Polytechnique, Algeria | Electronics Engineering | 2012
+
+== CERTIFICATIONS
+* Lakehouse Fundamentals, Databricks, 2022
+* AI Mentor, HackerMaker, 2019
+
+
+== SKILLS
+* Machine Learning: Regression, classification, clustering | Python, SQL | PowerBI, Tableau, Plotly | NumPy, pandas, Spark | TensorFlow, Keras, PyTorch | Scikit-learn, MLflow, HyperOpt | OpenCV, Pillow |  Git, Docker, GitHub | Microsoft Azure, AWS, GCP, Databricks
+
+// === Interests
+// * Author of 8+ scientific articles and trainer in Big Data and Data Science
+// * Passionate about running and badminton
+
+
+
+
+

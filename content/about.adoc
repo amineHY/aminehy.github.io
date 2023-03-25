@@ -1,0 +1,48 @@
+---
+title: "A propos"
+date: 2023-03-05T15:04:43+01:00
+draft: false
+---
+
+include::common/config/config_urls.adoc[]
+
+Bonjour, je m'appelle *Amine Hadj-Youcef*. Je fournis des services de consultation en intelligence artificielle, Data science & engineering, et en formation professionnel, pour les d'entreprise en définissant leurs besoins métiers et en les traduisant en solutions techniques en Data Science et intelligence Artificielle.
+
+Je suis spécialisé dans la collecte, l'analyse et l'exploration de données, ainsi que dans la conception de tableaux de bord analytiques et la production de solutions de machine learning sur le cloud. 
+
+Mon expertise s'étend également à la gestion de projet, en mettant l'accent sur le suivi, la direction et l'atteinte des objectifs et des délais du projet.
+
+== Ils m'ont fait confiance
+
+image:{link-logo-sncf}[height=50]
+image:{link-logo-tag}[height=50]
+image:{link-logo-dv}[height=50]
+image:{link-logo-ias}[height=50]
+
+image:{link-logo-saclay}[height=50]
+image:{link-logo-supelec}[height=50]
+image:{link-logo-ets}[height=50]
+image:{link-logo-imb}[height=50]
+image:{link-logo-ubordeaux}[height=50]
+image:{link-logo-enp}[height=50]
+image:{link-logo-esi}[height=50]
+
+
+
+image:{link-logo-atos}[height=50]
+image:{link-logo-tf1}[height=50]
+image:{link-logo-bouygues}[height=50]
+image:{link-logo-decathlon}[height=50]
+image:{link-logo-lucy}[height=50]
+
+image:{link-logo-m2i}[height=50]
+image:{link-logo-oc}[height=50]
+
+== Contactez moi
+
+
+image:https://cdn-icons-png.flaticon.com/512/646/646094.png[link="mailto:hadjyoucef.amine@gmail.com", width=30]
+image:https://cdn-icons-png.flaticon.com/512/61/61109.png[width=30, link="https://www.linkedin.com/in/aminehy/"]
+image:https://cdn-icons-png.flaticon.com/512/1006/1006771.png[width=15,align=center, link="https://aminehy.io/", width=30] 
+
+

@@ -1,0 +1,29 @@
+---
+title: "Notes importantes pour un projet machine learning"
+date: 2022-03-05T10:35:18+01:00
+draft: false
+---
+
+:sectnums:
+:toc:
+:toc-title: Sommaire
+
+== Difference entre .fit vs .transform
+
+Lors de l'entraînement d'un modèle de machine learning, le modèle doit être d'abord ajusté (fit) aux données d'entraînement (X_train). Ensuite, ce modèle ajusté est utilisé pour transformer (transform) les données d'entraînement et les données de validation (X_valid). Cependant, il est important de ne pas réentrainer (fit) le modèle aux données de validation, car cela pourrait entraîner une fuite de données et altérer les résultats d'évaluation.
+
+Le modèle mentionné dans l'exemple peut être un codage "OneHotEncoding" ou un régressseur logistique, mais il peut être n'importe quel autre modèle de machine learning en fonction des besoins et des données.
+
+== Fuite des données
+
+La fuite de données se produit lorsque des informations du jeu de données de test sont accidentellement introduites dans le modèle lors de son entraînement. Cela peut se produire si le jeu de données de test n'est pas correctement séparé du jeu de données d'entraînement et que des informations provenant du jeu de données de test sont utilisées pour entraîner le modèle, ce qui peut donner l'impression d'une performance plus élevée du modèle que ce n'est réellement le cas.
+
+Pour éviter la fuite de données, il est important de séparer correctement les données d'entraînement et de test en utilisant des méthodes telles que la stratification ou la répartition aléatoire, et de ne pas effectuer de transformations sur les données de test qui sont basées sur les informations provenant des données d'entraînement. Il est également important de faire attention aux pipelines de prétraitement et de veiller à ce que les transformations soient effectuées uniquement sur les données d'entraînement et non sur les données de test.
+
+== Transformation de variable avec le logarithme
+
+L'application du logarithme peut être utilisée pour transformer une variable qui a une distribution exponentielle ou qui est fortement skewed (asymétrique) dans le but de l'ajuster à une distribution normale.
+
+Lorsqu'une variable est transformée avec un logarithme, le modèle de prédiction peut être entraîné sur la variable transformée, ce qui peut entraîner des résultats de prédiction plus précis en raison de la distribution normalisée des données. Une fois que les prédictions ont été effectuées, il peut être nécessaire de retirer le logarithme pour obtenir des prédictions dans la plage d'origine de la variable. Cela peut être accompli en utilisant l'opération exponentielle (exp).
+
+En résumé, l'application du logarithme, la prédiction avec un modèle de machine learning et le retrait du logarithme sont une technique courante pour ajuster les données pour la modélisation en machine learning.

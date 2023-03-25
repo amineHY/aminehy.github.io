@@ -1,0 +1,19 @@
+---
+title: "Data Visualisation"
+date: 2022-03-05T11:35:18+01:00
+draft: false
+---
+
+:sectnums:
+:toc:
+:toc-title: Sommaire
+
+
+== Data Visualisation
+
+
+Les outils sont triés dans chaque catégorie selon leur nombre total de téléchargements par mois lorsqu'ils sont ajoutés à la liste. Notez que les téléchargements Conda sont calculés en ajoutant le nombre total de téléchargements sur les canaux par défaut, conda-forge et bioconda ; les données pour les autres canaux ne sont pas actuellement incluses. Notez également que les badges pour les étoiles, les contributeurs, la licence et les téléchargements PyPi sont mis en cache pour éviter que les utilisateurs ne dépassent les limites de taux des badges. Comme le cache peut échouer occasionnellement pour certains badges de téléchargements PyPi, leur contrepartie en direct est affichée à la place et peut être identifiée par leur fond gris.
+
+link:https://pyviz.org/tools.html[Librairies de visualisation]
+
+
