@@ -1,8 +1,8 @@
 = README
 :toc: auto
 
+image:https://github.com/amineHY/aminehy.github.io/actions/workflows/hugo.yml/badge.svg["Deploy Hugo site to Pages", link="https://github.com/amineHY/aminehy.github.io/actions/workflows/hugo.yml"]
 
-This repo host a Hugo website
 
 
 
