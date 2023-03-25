@@ -4,10 +4,10 @@
 
 
 [submodule "themes/hugo-coder"]
-	path = themes/ananke
+	path = themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder
 
 
 [submodule "themes/LoveIt"]
-	path = themes/ananke
+	path = themes/LoveIt
 	url = https://github.com/dillonzq/LoveIt
