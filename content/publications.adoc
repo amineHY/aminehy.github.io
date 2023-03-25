@@ -9,10 +9,13 @@ draft: false
 
 == List des revues
 
-image:https://upload.wikimedia.org/wikipedia/commons/2/21/IEEE_logo.svg[image, height=70]
-image:https://www.eurasip.org/Proceedings/Eusipco/Eusipco2008/images/eurasip_logo.png[image, height=70]
-image:https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Universit%C3%A9_Paris-Saclay.svg[image, height=70]
-image:https://www.edpsciences.org/images/AA-news-site.jpg[image, height=70]
+image:https://upload.wikimedia.org/wikipedia/commons/2/21/IEEE_logo.svg[image, width=70]
+
+image:https://www.eurasip.org/Proceedings/Eusipco/Eusipco2008/images/eurasip_logo.png[image, width=70]
+
+image:https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Universit%C3%A9_Paris-Saclay.svg[image, width=70]
+
+image:https://www.edpsciences.org/images/AA-news-site.jpg[image, width=70]
 
 
 == Articles de revues internationales
