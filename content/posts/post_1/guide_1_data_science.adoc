@@ -1,7 +1,21 @@
 ---
 title: "Guide Préparation des données pour l'Analyse Exploratoire"
 date: 2022-03-05T08:35:18+01:00
+lastmod : 022-03-05T08:35:18+01:00
 draft: false
+categories:
+    - Machine Learning
+    - Data science
+tags:
+    - machine learning supervisé
+    - pipeline
+    - transformer
+keywords:
+    - machine learning supervisé
+    - pipeline
+    - transformer
+cascade:
+  banner: images/photo_linkedin_2020.png
 ---
 
 :sectnums:

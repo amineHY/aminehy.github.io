@@ -2,6 +2,9 @@
 title: "Notes importantes pour un projet machine learning"
 date: 2022-03-05T10:35:18+01:00
 draft: false
+categories:
+    - Machine Learning
+    - Data science
 ---
 
 :sectnums:

@@ -100,7 +100,7 @@ IsMultiLingual = true
 [[menu.main]]
   name = "Articles"
   weight = 3
-  url = "articles/"
+  url = "article/"
 [[menu.main]]
   name = "Publications"
   weight = 4

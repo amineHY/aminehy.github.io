@@ -2,6 +2,9 @@
 title: "Guide Modélisation par Machine Learning"
 date: 2022-03-05T09:35:18+01:00
 draft: false
+categories:
+    - Machine Learning
+    - Data science
 ---
 
 :sectnums:
