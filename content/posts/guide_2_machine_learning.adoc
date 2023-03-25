@@ -22,7 +22,7 @@ La modélisation non supervisée implique que les algorithmes sont formés à pa
 
 En conclusion, la modélisation par Machine Learning est un outil puissant pour découvrir des relations cachées dans les données et pour améliorer les prévisions en utilisant les données historiques. Les deux types de modélisation ont leurs avantages et leurs limites et le choix dépend du type de problème à résoudre et des données disponibles.
 
-=== Préparation des données pour le machine learning
+== Préparation des données pour le machine learning
 
 Voici les étapes importantes que vous pouvez inclure dans votre projet de Machine Learning :
 
@@ -35,7 +35,7 @@ Voici les étapes importantes que vous pouvez inclure dans votre projet de Machi
 
 Il est important de souligner que ces étapes ne sont pas strictes et peuvent varier en fonction de la complexité et de la nature de votre cas d'utilisation. Il est également important de documenter soigneusement chaque étape pour une meilleure compréhension et reproduction des résultats.
 
-=== Choix de l'algorithme de modélisation
+== Choix de l'algorithme de modélisation
 Déterminer le type de modèle à utiliser, tel qu'un algorithme de régression ou de classification, en fonction des objectifs et des caractéristiques des données.
 
 Pour choisir l'algorithme de modélisation approprié pour un jeu de données donné, vous pouvez suivre les étapes suivantes :
@@ -54,7 +54,7 @@ Après avoir évalué ces facteurs, vous pouvez utiliser des bibliothèques tell
 
 
 
-=== Choix de données X et de la variable cible y
+== Choix de données X et de la variable cible y
 
 Sélectionner les features (X) qui seront utilisées pour entraîner le modèle et définir la variable cible (y) que le modèle cherche à prédire.
 
@@ -77,7 +77,7 @@ Dans cet exemple, nous utilisons la fonction `train_test_split` de `scikit-learn
 
 
 
-=== Split / partition des données
+== Split / partition des données
 Diviser les données en ensemble d'entraînement, de validation et de test. Cette étape est importante pour évaluer la performance du modèle et éviter la fuite de données. link:https://towardsdatascience.com/avoid-data-leakage-split-your-data-before-processing-a7f172632b00[Fuite des données])
 
 Voici un exemple de code Python pour spliter les données en ensemble d'entraînement, de validation et de test en utilisant la librairie `scikit-learn`:
@@ -98,7 +98,7 @@ Dans ce code, nous utilisons la fonction `train_test_split` pour diviser d'abord
 
 La variable `test_size` définit la taille de l'ensemble de test par rapport au nombre total d'exemples, et la variable `random_state` définit le générateur de nombres aléatoires utilisé pour sélectionner les exemples pour les ensembles d'entraînement et de test.
 
-=== Transformation des variables (Data scaling & Encoding)
+== Transformation des variables (Data scaling & Encoding)
 Effectuer des transformations telles que l'encodage des variables catégorielles et la normalisation des variables numériques.
 
 Voici un exemple de code python pour la transformation des variables dans le contexte d'un programme de machine learning :
@@ -153,7 +153,7 @@ model_pipeline.fit(X, y)
 Dans ce code, nous utilisons StandardScaler pour normaliser les variables numériques et OneHotEncoder pour encoder les variables catégorielles. Nous utilisons ColumnTransformer pour appliquer les transformations sur les colonnes appropriées. Enfin, nous utilisons Pipeline pour créer un pipeline d'entraînement qui inclut la transformation des données ainsi que l'entraînement du modèle (dans ce cas, une régression logistique).
 
 
-=== Validation croisée
+== Validation croisée
 Utiliser une validation croisée pour évaluer la performance du modèle et éviter le sur-ajustement / overfitting.
 
 Voici un exemple de code Python utilisant `scikit-learn` pour effectuer la validation croisée sur un classificateur logistique :
@@ -197,7 +197,7 @@ print("Score sur l'ensemble de test :", logreg.score(X_test_scaled, y_test))
 
 
 
-=== Entraînement du modèle et réglage des Hyperparamètre
+== Entraînement du modèle et réglage des Hyperparamètre
 Ajuster les hyperparamètres du modèle pour améliorer les résultats et éviter le sur-ajustement.
 
 Pour ajuster les hyperparamètres d'un modèle en utilisant la validation croisée, vous pouvez utiliser la classe `GridSearchCV` ou `RandomizedSearchCV` de scikit-learn.
@@ -233,7 +233,7 @@ grid.fit(X, y)
 print("Meilleurs hyperparamètres: ", grid.best_params_)
 {{< /highlight >}}
 
-=== Choix des métriques d'évaluation
+== Choix des métriques d'évaluation
 Choisir les métriques d'évaluation appropriées en fonction des objectifs et des caractéristiques des données.
 
 Pour les problèmes de *classification*, les métriques d'évaluation couramment utilisées incluent la `précision`, le `rappel`, le `score F1` et l' `AUC ROC`.
@@ -244,7 +244,7 @@ Pour les problèmes de *régression*, les métriques d'évaluation couramment ut
 En Python, ces métriques d'évaluation peuvent être facilement calculées à l'aide de différentes fonctions du module metrics de scikit-learn.
 --
 
-=== Évaluation du Modèle Machine Learning supervisé
+== Évaluation du Modèle Machine Learning supervisé
 
 Pour évaluer un modèle d'apprentissage automatique, il existe plusieurs métriques d'évaluation qui peuvent être utilisées, en fonction du type de problème (par exemple, la classification, la régression) et des exigences spécifiques du problème.
 
@@ -264,10 +264,10 @@ print("Précision:", accuracy)
 Il est important de choisir les métriques d'évaluation appropriées en fonction du type de problème et des exigences et de prendre en compte plusieurs métriques, pas seulement une, pour avoir une évaluation complète de la performance du modèle.
 --
 
-=== Amélioration du modèle
+== Amélioration du modèle
 En fonction des résultats obtenus, il peut être nécessaire d'apporter des modifications au modèle, telles que l'ajout de nouvelles features, la modification des paramètres du modèle, etc. pour améliorer les résultats.
 
-=== Déploiement du modèle
+== Déploiement du modèle
 Une fois que le modèle est prêt, il peut être déployé pour effectuer des prédictions sur de nouvelles données.
 
 Voici un exemple de code Python pour déployer un modèle de machine learning construit à l'aide de `scikit-learn`:
@@ -295,7 +295,7 @@ Ensuite, nous avons préparé les nouvelles données à prédire en utilisant `n
 Finalement, nous avons effectué les prédictions sur les nouvelles données en utilisant la méthode predict du modèle chargé.
 
 
-=== Créer une API pour le modèle
+== Créer une API pour le modèle
 Voici un exemple simple de code Python pour déployer un modèle dans une API `Flask` :
 
 {{< highlight python >}}
@@ -320,7 +320,7 @@ def predict():
     # Renvoyer la prédiction sous forme de réponse JSON
     return {'prediction': prediction.tolist()}
 
-if __name__ == '__main__':
+if __name__ = '__main__':
     app.run(port=8000, debug=True)
 {{< /highlight >}}
 
@@ -331,9 +331,9 @@ Notez que vous pouvez adapter ce code en fonction de vos besoins en termes de va
 
 
 
-=== Code Python ML supervisé sur des données structurées
+== Code Python ML supervisé sur des données structurées
 
-==== Exemple simple
+=== Exemple simple
 
 Cet exemple est écrit en Python avec l'utilisation du framework scikit-learn :
 
@@ -370,7 +370,7 @@ print("Mean Squared Error : ", mse)
 
 Cet exemple montre comment charger des données à partir d'un fichier CSV, les séparer en données d'entrainement et de test, initialiser un modèle de régression linéaire, l'entrainer sur les données d'entrainement, faire des prédictions sur les données de test et enfin évaluer les performances du modèle en utilisant l'erreur quadratique moyenne.
 
-==== Exemple complet
+=== Exemple complet
 Voici un exemple complet en Python utilisant scikit-learn pour la prédiction de la régression avec des caractéristiques numériques et catégorielles.
 Le code inclut également la normalisation des données, le tuning des hyperparamètres, la validation croisée et le pipeline.
 Cet exemple utilisera le jeu de données link:https://www.kaggle.com/c/titanic[titanic] pour la prédiction de la survie des passagers.

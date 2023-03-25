@@ -4,8 +4,8 @@ date: 2023-03-05T19:04:47+01:00
 draft: false
 ---
 
-:toc:
-:toc-title: Sommaire
+// :toc:
+// :toc-title: Sommaire
 
 [.text-center]
 *Lead Data Scientist & Engineer*
