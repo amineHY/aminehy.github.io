@@ -1,5 +1,5 @@
 # Main
-baseurl = "https://aminehy.github.io/"
+baseurl = ""
 title = "Amine"
 theme = "hugo-coder"
 languagecode = "en"
