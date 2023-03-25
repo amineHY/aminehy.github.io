@@ -50,6 +50,11 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Install Asciidoctor
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ruby
+          sudo gem install asciidoctor coderay
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
