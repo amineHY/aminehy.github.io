@@ -2,6 +2,11 @@
 :toc: auto
 
 
+This repo host a Hugo website
+
+
+
+
 == Installation
 
 * Install link:https://go.dev/doc/install[Go]
