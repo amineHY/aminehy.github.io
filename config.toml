@@ -109,7 +109,7 @@ IsMultiLingual = true
   weight = 4
   url = "publications/"
 [[menu.main]]
-  name = "About"
+  name = "A propos"
   weight = 5
   url = "about/"
 
