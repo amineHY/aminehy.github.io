@@ -10,6 +10,8 @@ paginate = 20
 
 disqusShortname = "aminehadjyoucef"
 
+
+# Site meta data
 [params]
   author = "Amine Hadj-Youcef"
   info = "Lead Data Scientist & Machine Learning Engineer"
@@ -18,8 +20,8 @@ disqusShortname = "aminehadjyoucef"
   avatarURL = "https://aminehy.github.io/assets/images/photo_linkedin_2020.png"
   gravatar = "hadjyoucef.amine@gmail.com"
 
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  favicon_32 = "favicon.ico"
+  favicon_16 = "favicon.ico"
 
   since = 2023
 
@@ -29,10 +31,11 @@ disqusShortname = "aminehadjyoucef"
   hidecolorschemetoggle = false
 
   darkmode = true
-  #       customCSS = ["./common/asciidoctor.css"]
+  # customCSS = ["./common/asciidoctor.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
+# Markup settings
 [markup]
   [markup.asciidocExt]
     backend = 'html5'
@@ -50,7 +53,7 @@ disqusShortname = "aminehadjyoucef"
       stylesheet = "https://cdnjs.cloudflare.com/ajax/libs/coderay/1.1.2/stylesheets/coderay.min.css"
       hide-uri-scheme = true
       sectlinks = true
-      
+
 [taxonomies]
   category = "categories"
   series = "series"
