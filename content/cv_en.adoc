@@ -4,7 +4,6 @@ date: 2023-03-05T19:04:39+01:00
 draft: true
 ---
 
-
 [.text-center]
 *Lead Data Scientist & Engineer, Expert in Spark & Databricks*
 // image::../media/photo_linkedin_2020.png[width=120,align=center]
@@ -16,10 +15,7 @@ image:https://cdn-icons-png.flaticon.com/512/484/484167.png[width=15,align=cente
 image:https://cdn-icons-png.flaticon.com/512/1006/1006771.png[width=15,align=center] https://aminehy.io/  
 image:https://cdn-icons-png.flaticon.com/512/197/197374.png[width=15,align=center] image:https://cdn-icons-png.flaticon.com/512/197/197560.png[width=15,align=center]  Fluent
 
-
-
 == PROFESSIONAL SUMMARY
-
 
 * Data Scientist & Engineer with 7+ years of experience in AI.
 * Improved maintenance operations and safety within SNCF railway network through algorithms and data processing pipelines. Increased detection rates from ~10% to 100%.
@@ -70,9 +66,7 @@ Utilized sophisticated techniques to correct anomalies in the data, leading to a
 // Communication
 * Communicated results and participated in meetings with cross-functional teams, ensuring alignment and understanding across the organization.
 
-
 // ##########
-
 
 === Data Scientist - Computer Vision Engineer | January 2019 - December 2019 | Drone Volt Group, Villepinte (93), France
 
@@ -96,7 +90,6 @@ Utilized sophisticated techniques to correct anomalies in the data, leading to a
 * Authored over 8 scientific articles and presented the work at 3 international conferences, successfully communicating the results to the public.
 * Collaborated in creating a Python package and a journal article to widely disseminate the solution within the scientific community.
 
-
 // ##########
 // ##########
 
@@ -109,15 +102,10 @@ Utilized sophisticated techniques to correct anomalies in the data, leading to a
 * Lakehouse Fundamentals, Databricks, 2022
 * AI Mentor, HackerMaker, 2019
 
-
 == SKILLS
 * Machine Learning: Regression, classification, clustering | Python, SQL | PowerBI, Tableau, Plotly | NumPy, pandas, Spark | TensorFlow, Keras, PyTorch | Scikit-learn, MLflow, HyperOpt | OpenCV, Pillow |  Git, Docker, GitHub | Microsoft Azure, AWS, GCP, Databricks
 
 // === Interests
 // * Author of 8+ scientific articles and trainer in Big Data and Data Science
 // * Passionate about running and badminton
-
-
-
-
 

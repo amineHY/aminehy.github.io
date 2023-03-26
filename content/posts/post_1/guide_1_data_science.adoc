@@ -28,7 +28,6 @@ Cet article est un guide des étapes impliquées dans un projet d'apprentissage 
 
 L'étape de modélisation comprend l'apprentissage supervisé et non supervisé, avec des algorithmes tels que la classification, la régression ou le regroupement, et nécessite une attention minutieuse pour éviter les fuites de données. L'étape de modélisation comprend la sélection des caractéristiques et des variables cibles, la division des données, la transformation des variables, la validation croisée et l'entraînement du modèle d'apprentissage automatique. La dernière étape consiste à choisir le bon algorithme de modélisation et à évaluer sa performance.
 
-
 == Importation des données
 Charger les données depuis différentes sources telles que des fichiers CSV, JSON, Parquet, etc.
 
@@ -95,7 +94,6 @@ df = df[selected_features]
 print(df.head())
 {{< /highlight >}}
 
-
 == Ajout / Transformation des features (Features Engineering)
 Créer de nouvelles features ou transformer les features existantes pour les rendre plus adaptées à l'analyse.
 L'ajout ou la transformation des features peut être fait avec le code suivant:
@@ -107,7 +105,6 @@ df['new_feature'] = df['existing_feature_1'] + df['existing_feature_2']
 # Transformation des features existantes
 df['existing_feature'] = df['existing_feature'].apply(lambda x: np.log(x + 1))
 {{< /highlight >}}
-
 
 == (Optionnel) Réduction de dimension
 Utiliser des techniques telles que l'analyse en composantes principales (ACP) pour réduire le nombre de features.
@@ -131,11 +128,8 @@ X_valid_pca = pca.transform(X_valid)
 
 Ici, nous initialisons le modèle PCA avec `n_components=2` pour réduire les données à deux dimensions. Nous ajustons (entraînons) ensuite le modèle sur les données d'entraînement `X_train` et appliquons la réduction de dimension aux données d'entraînement et de validation `X_train_pca` et `X_valid_pca`.
 
-
-
 == Vérification de la qualité des données
 Vérifier que les données sont fiables et complètes et corriger les erreurs ou les valeurs manquantes.
-
 
 Voici un exemple de code Python pour vérifier la qualité des données et corriger les erreurs ou les valeurs manquantes :
 
@@ -207,7 +201,6 @@ Notez que les étapes décrites ci-dessus ne sont qu'un exemple et peuvent varie
 Visualiser les données pour comprendre les relations entre les variables et pour identifier des tendances ou des modèles cachés.
 
 Voici un code simple en Python utilisant Pandas et Matplotlib pour effectuer un résumé et une visualisation des données:
-
 
 {{< highlight python >}}
 import pandas as pd

@@ -38,6 +38,20 @@ paginate = 20
 
 # Markup settings
 [markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
   [markup.asciidocExt]
     backend = 'html5'
     extensions = ["coderay"]

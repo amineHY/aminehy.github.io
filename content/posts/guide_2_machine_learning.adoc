@@ -11,10 +11,12 @@ categories:
 :toc:
 :toc-title: Sommaire
 :icons: font
+:icon-set: fa
+// ##############################################
+// ##############################################
+// ##############################################
 
-// ##############################################
-// ##############################################
-// ##############################################
+
 
 == Introduction
 
@@ -56,8 +58,6 @@ Pour choisir l'algorithme de modélisation approprié pour un jeu de données do
 
 Après avoir évalué ces facteurs, vous pouvez utiliser des bibliothèques telles que `scikit-learn` pour choisir et entraîner l'algorithme de modélisation approprié pour vos données.
 
-
-
 == Choix de données X et de la variable cible y
 
 Sélectionner les features (X) qui seront utilisées pour entraîner le modèle et définir la variable cible (y) que le modèle cherche à prédire.
@@ -78,8 +78,6 @@ y = df['cible']
 {{< /highlight >}}
 
 Dans cet exemple, nous utilisons la fonction `train_test_split` de `scikit-learn` pour séparer les données en ensembles d'entraînement et de validation, avec `80%` des données utilisées pour l'entraînement et `20%` pour la validation.
-
-
 
 == Split / partition des données
 Diviser les données en ensemble d'entraînement, de validation et de test. Cette étape est importante pour évaluer la performance du modèle et éviter la fuite de données. link:https://towardsdatascience.com/avoid-data-leakage-split-your-data-before-processing-a7f172632b00[Fuite des données])
@@ -116,8 +114,6 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.linear_model import LogisticRegression
 from sklearn.impute import SimpleImputer
 
-
-
 # Chargement des données
 data = pd.read_csv("data.csv")
 
@@ -133,7 +129,6 @@ categorical_transformer = OneHotEncoder()
 
 # Impute missing values with the mean
 imputer = SimpleImputer(strategy='mean')
-
 
 # Définir les colonnes pour les transformations
 numerical_cols = X.select_dtypes(include=["float64"]).columns
@@ -155,7 +150,6 @@ model_pipeline.fit(X, y)
 {{< /highlight >}}
 
 Dans ce code, nous utilisons StandardScaler pour normaliser les variables numériques et OneHotEncoder pour encoder les variables catégorielles. Nous utilisons ColumnTransformer pour appliquer les transformations sur les colonnes appropriées. Enfin, nous utilisons Pipeline pour créer un pipeline d'entraînement qui inclut la transformation des données ainsi que l'entraînement du modèle (dans ce cas, une régression logistique).
-
 
 == Validation croisée
 Utiliser une validation croisée pour évaluer la performance du modèle et éviter le sur-ajustement / overfitting.
@@ -197,9 +191,6 @@ print("Écart-type :", np.std(scores))
 # Évaluation du modèle sur l'ensemble de test
 print("Score sur l'ensemble de test :", logreg.score(X_test_scaled, y_test))
 {{< /highlight >}}
-
-
-
 
 == Entraînement du modèle et réglage des Hyperparamètre
 Ajuster les hyperparamètres du modèle pour améliorer les résultats et éviter le sur-ajustement.
@@ -245,13 +236,11 @@ Pour les problèmes de *régression*, les métriques d'évaluation couramment ut
 
 En Python, ces métriques d'évaluation peuvent être facilement calculées à l'aide de différentes fonctions du module metrics de scikit-learn.
 
-
 == Évaluation du Modèle Machine Learning supervisé
 
 Pour évaluer un modèle d'apprentissage automatique, il existe plusieurs métriques d'évaluation qui peuvent être utilisées, en fonction du type de problème (par exemple, la classification, la régression) et des exigences spécifiques du problème.
 
 Par exemple, pour calculer la précision d'un modèle de classification, on pourrait utiliser:
-
 
 {{< highlight python >}}--
 from sklearn.metrics import accuracy_score
@@ -262,8 +251,6 @@ print("Précision:", accuracy)
 {{< /highlight >}}
 
 Il est important de choisir les métriques d'évaluation appropriées en fonction du type de problème et des exigences et de prendre en compte plusieurs métriques, pas seulement une, pour avoir une évaluation complète de la performance du modèle.
-
-
 
 == Amélioration du modèle
 En fonction des résultats obtenus, il peut être nécessaire d'apporter des modifications au modèle, telles que l'ajout de nouvelles features, la modification des paramètres du modèle, etc. pour améliorer les résultats.
@@ -294,7 +281,6 @@ Dans ce code, nous avons tout d'abord importé les modules nécessaires, `pickle
 Ensuite, nous avons chargé le modèle enregistré avec `pickle` en utilisant la fonction `pickle`.load.
 Ensuite, nous avons préparé les nouvelles données à prédire en utilisant `numpy`.
 Finalement, nous avons effectué les prédictions sur les nouvelles données en utilisant la méthode predict du modèle chargé.
-
 
 == Créer une API pour le modèle
 Voici un exemple simple de code Python pour déployer un modèle dans une API `Flask` :
@@ -328,9 +314,6 @@ if __name__ = '__main__':
 Ce code suppose que vous avez déjà enregistré votre modèle dans un fichier *model.pkl* en utilisant la fonction *pickle.dump*. Il crée une API `Flask` qui attend une entrée sous forme de JSON contenant les données d'entrée, et renvoie une réponse JSON contenant la prédiction du modèle.
 
 Notez que vous pouvez adapter ce code en fonction de vos besoins en termes de validation de données, de gestion d'erreurs, de sécurité, etc. Il s'agit simplement d'un point de départ pour déployer un modèle avec Flask.
-
-
-
 
 == Code Python ML supervisé sur des données structurées
 
@@ -435,7 +418,6 @@ Ensuite, nous avons construit un pipeline en utilisant `Pipeline` qui inclut la 
 En utilisant `GridSearchCV`, nous avons effectué une recherche de grille pour trouver les meilleurs hyperparamètres pour le modèle `LogisticRegression`.
 Nous avons défini un ensemble de valeurs à tester pour les hyperparamètres et `GridSearchCV` a effectué une validation croisée pour trouver le meilleur ensemble d'hyperparamètres.
 Enfin, nous avons entraîné le modèle `LogisticRegression` sur l'ensemble de données complet en utilisant les hyperparamètres optimaux trouvés par `GridSearchCV`.
-
 
 // ############################################
 

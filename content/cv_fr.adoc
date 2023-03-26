@@ -11,10 +11,7 @@ draft: false
 *Lead Data Scientist & Engineer*
 // image::../media/photo_linkedin_2020.png[width=120,align=center]
 
-
-
 == RÉSUMÉ PROFESSIONNEL
-
 
 * Data Scientist & Ingénieur avec plus de 7 ans d'expérience en IA.
 * Amélioration des opérations de maintenance et sécurité du réseau ferroviaire SNCF grâce à des algorithmes et pipelines de traitement des données. Augmentation des taux de détection de ~10% à 100%.
@@ -62,9 +59,7 @@ Mis en place d'algorithmes de machine learning pour détecter les anomalies dans
 * Déploiement d'un tableau de bord convivial avec Docker et Streamlit, permettant aux parties prenantes non techniques d'accéder et de comprendre les informations générées par les données.
 * Communiqué les résultats et participé à des réunions avec des équipes pluridisciplinaires pour assurer l'alignement et la compréhension dans toute l'organisation.
 
-
 // ##########
-
 
 === Data Scientist - Computer Vision Engineer | January 2019 - December 2019 | Drone Volt Group, Villepinte (93), France
 
@@ -88,7 +83,6 @@ Mis en place d'algorithmes de machine learning pour détecter les anomalies dans
 * Rédigé plus de 8 articles scientifiques et présenté les travaux lors de 3 conférences internationales, communiquant avec succès les résultats au public.
 * Collaboré à la création d'un package Python et d'un article de journal pour diffuser largement la solution auprès de la communauté scientifique.
 
-
 // ##########
 // ##########
 
@@ -102,15 +96,10 @@ Mis en place d'algorithmes de machine learning pour détecter les anomalies dans
 * Lakehouse Fundamentals, Databricks, 2022
 * Mentor AI , HackerMaker, 2019
 
-
 == COMPÉTENCES
 * Machine Learning: Regression, classification, clustering | Python, SQL | PowerBI, Tableau, Plotly | NumPy, pandas, Spark | TensorFlow, Keras, PyTorch | Scikit-learn, MLflow, HyperOpt | OpenCV, Pillow |  Git, Docker, GitHub | Microsoft Azure, AWS, GCP, Databricks
 
 // === Interests
 // * Author of 8+ scientific articles and trainer in Big Data and Data Science
 // * Passionate about running and badminton
-
-
-
-
 

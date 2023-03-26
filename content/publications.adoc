@@ -6,7 +6,6 @@ draft: false
 
 // include::./common/config/config_asciidoc_fr.adoc[]
 
-
 == List des revues
 
 image:https://upload.wikimedia.org/wikipedia/commons/2/21/IEEE_logo.svg[image, width=70]
@@ -16,7 +15,6 @@ image:https://www.eurasip.org/Proceedings/Eusipco/Eusipco2008/images/eurasip_log
 image:https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Universit%C3%A9_Paris-Saclay.svg[image, width=70]
 
 image:https://www.edpsciences.org/images/AA-news-site.jpg[image, width=70]
-
 
 == Articles de revues internationales
 
@@ -42,7 +40,6 @@ link:https://ieeexplore.ieee.org/document/8553166[Spatio-spectral multichannel r
 . Hadj-Youcef, M. A., Adnane, M., & Bousbia-Salah, A. (2013). link:https://ieeexplore.ieee.org/abstract/document/6602363[Detection of epileptics during seizure-free periods, window=_blank]. 2013 8th International Workshop on Systems, Signal Processing and Their Applications, WoSSPA 2013, May, 209–213.
 
 . Hadj-youcef, A. (2014). Reconstruction des Images par des méthodes d’optimisation convexes et non lisses.
-
 
 // == Poster de conférence
 
