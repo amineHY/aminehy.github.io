@@ -10,6 +10,7 @@ categories:
 :sectnums:
 :toc:
 :toc-title: Sommaire
+:icons: font
 
 // ##############################################
 // ##############################################
@@ -242,10 +243,8 @@ Choisir les métriques d'évaluation appropriées en fonction des objectifs et d
 Pour les problèmes de *classification*, les métriques d'évaluation couramment utilisées incluent la `précision`, le `rappel`, le `score F1` et l' `AUC ROC`.
 Pour les problèmes de *régression*, les métriques d'évaluation couramment utilisées incluent l'`erreur absolue moyenne`, l'`erreur quadratique moyenne`, la `racine carrée de l'erreur quadratique moyenne` et le `score R2`.
 
-[NOTE]
---
 En Python, ces métriques d'évaluation peuvent être facilement calculées à l'aide de différentes fonctions du module metrics de scikit-learn.
---
+
 
 == Évaluation du Modèle Machine Learning supervisé
 
@@ -262,10 +261,9 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Précision:", accuracy)
 {{< /highlight >}}
 
-[IMPORTANT]
---
 Il est important de choisir les métriques d'évaluation appropriées en fonction du type de problème et des exigences et de prendre en compte plusieurs métriques, pas seulement une, pour avoir une évaluation complète de la performance du modèle.
---
+
+
 
 == Amélioration du modèle
 En fonction des résultats obtenus, il peut être nécessaire d'apporter des modifications au modèle, telles que l'ajout de nouvelles features, la modification des paramètres du modèle, etc. pour améliorer les résultats.

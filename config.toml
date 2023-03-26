@@ -34,10 +34,6 @@ paginate = 20
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
-[module]
-[[module.imports]]
-# path = "github.com/kaushalmodi/hugo-disqus"
-disqusShortname = "aminehadjyoucef"
 
 
 # Markup settings
