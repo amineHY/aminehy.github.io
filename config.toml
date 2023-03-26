@@ -62,7 +62,7 @@ disqusShortname = "aminehadjyoucef"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 2
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/aminehy/"
 
 [[params.social]]
   name = "LinkedIn"
