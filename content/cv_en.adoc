@@ -12,7 +12,7 @@ draft: true
 image:https://cdn-icons-png.flaticon.com/512/126/126341.png[width=15,align=center] +33 6 82 52 42 06
 image:https://cdn-icons-png.flaticon.com/512/482/482138.png[width=15,align=center] hadjyoucef.amine@gmail.com
 image:https://cdn-icons-png.flaticon.com/512/484/484167.png[width=15,align=center] Paris, France
-image:https://cdn-icons-png.flaticon.com/512/1006/1006771.png[width=15,align=center] https://aminehy.io/  
+image:https://cdn-icons-png.flaticon.com/512/1006/1006771.png[width=15,align=center] https://aminehy.io/
 image:https://cdn-icons-png.flaticon.com/512/197/197374.png[width=15,align=center] image:https://cdn-icons-png.flaticon.com/512/197/197560.png[width=15,align=center]  Fluent
 
 == PROFESSIONAL SUMMARY
