@@ -8,7 +8,6 @@ defaultcontentlanguage = "en"
 paginate = 20
 
 
-disqusShortname = "aminehadjyoucef"
 
 
 # Site meta data
@@ -34,6 +33,12 @@ disqusShortname = "aminehadjyoucef"
   # customCSS = ["./common/asciidoctor.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
+
+[module]
+[[module.imports]]
+# path = "github.com/kaushalmodi/hugo-disqus"
+disqusShortname = "aminehadjyoucef"
+
 
 # Markup settings
 [markup]
