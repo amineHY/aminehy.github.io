@@ -14,9 +14,9 @@ draft: false
 == RÉSUMÉ PROFESSIONNEL
 
 * Data Scientist & Ingénieur avec plus de 7 ans d'expérience en IA.
+* Expertise en analyse de données (Python, SQL, Pandas, Spark), apprentissage automatique (Spark ML, MLflow) et cloud (AWS, Azure, Databricks).
 * Amélioration des opérations de maintenance et sécurité du réseau ferroviaire SNCF grâce à des algorithmes et pipelines de traitement des données. Augmentation des taux de détection de ~10% à 100%.
 *  Passionné par la formation et le mentorat. Aime relever les nouveaux défis pour obtenir des résultats positifs pour les clients.
-* Expertise en analyse de données (Python, SQL, Pandas, Spark), apprentissage automatique (Spark ML, MLflow) et informatique en nuage (AWS, Azure, Databricks).
 
 // ##########
 // ##########
