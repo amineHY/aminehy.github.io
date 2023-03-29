@@ -3,12 +3,12 @@
 
 image:https://github.com/amineHY/aminehy.github.io/actions/workflows/hugo.yml/badge.svg["Deploy Hugo site to Pages", link="https://github.com/amineHY/aminehy.github.io/actions/workflows/hugo.yml"]
 
-== Installation
+== Setup
 
 * Install link:https://go.dev/doc/install[Go]
 * Install link:https://gohugo.io/installation/linux/[Hugo]
 
-* link:https://gohugo.io/getting-started/quick-start/[quick-start]
+* link:https://gohugo.io/getting-started/quick-start/[Hogo: quick-start]
 
 * Add `env` variable ao `~/.bashrc`
 
@@ -47,6 +47,12 @@ hugo server -D
 
 == To set a specific port
 
-hugo server --port=8080
+    hugo server --port=8080
+
+== Clone github repo
+    
+    git clone --recurse-submodules https://github.com/amineHY/aminehy.github.io.git
 
 // ^$\n\n+  =>  \n
+
+
