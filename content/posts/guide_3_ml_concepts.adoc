@@ -30,3 +30,23 @@ L'application du logarithme peut être utilisée pour transformer une variable q
 Lorsqu'une variable est transformée avec un logarithme, le modèle de prédiction peut être entraîné sur la variable transformée, ce qui peut entraîner des résultats de prédiction plus précis en raison de la distribution normalisée des données. Une fois que les prédictions ont été effectuées, il peut être nécessaire de retirer le logarithme pour obtenir des prédictions dans la plage d'origine de la variable. Cela peut être accompli en utilisant l'opération exponentielle (exp).
 
 En résumé, l'application du logarithme, la prédiction avec un modèle de machine learning et le retrait du logarithme sont une technique courante pour ajuster les données pour la modélisation en machine learning.
+
+
+== Contrat de maintenance ML
+
+Le contrat de maintenance du modèle et le calendrier de ré-entraînement font référence à la gestion continue d'un modèle d'apprentissage automatique après son déploiement. 
+
+Voici quelques étapes pour déterminer un contrat de maintenance du modèle et définir un calendrier de ré-entraînement :
+
+. Identifier les métriques de performance du modèle : Déterminer les métriques de performance importantes pour que le modèle atteigne ses objectifs et fixer des seuils pour celles-ci.
+. Mettre en place des outils de surveillance : Utiliser des outils de surveillance pour suivre la performance du modèle en temps réel et identifier tout problème ou anomalie.
+. Établir un protocole de gestion des problèmes : Déterminer qui est responsable de la résolution des problèmes lorsqu'ils surviennent et établir un protocole pour les gérer.
+. Définir un calendrier de ré-entraînement : Décider d'un calendrier pour ré-entraîner régulièrement le modèle afin de garantir qu'il reste à jour avec les nouvelles données et continue de bien fonctionner.
+. Identifier les critères de ré-entraînement : Déterminer les critères pour savoir quand le modèle doit être ré-entraîné, comme lorsque sa performance tombe en dessous d'un certain seuil ou lorsque de nouvelles données sont disponibles.
+. Développer un plan de versionnage : Développer un plan de versionnage du modèle pour pouvoir suivre facilement les changements au fil du temps et comparer différentes versions.
+
+Voici quelques ressources qui peuvent être utiles pour approfondir l'étude de la maintenance et du ré-entraînement de modèles :
+
+* "Continuous Delivery for Machine Learning" de Martin Fowler
+* "Machine Learning Operations : A Step-by-Step Guide to Creating and Deploying ML Pipelines" de Mark Treveil
+* Cours "Machine Learning Engineering" d'Andrew Ng sur Coursera
