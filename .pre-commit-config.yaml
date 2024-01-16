@@ -1,0 +1,200 @@
+repos:
+  # Collection of pre-commit hooks for common tasks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-yaml
+      - id: check-json
+      - id: check-added-large-files
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: mixed-line-ending
+      # AWS credential check is disabled for now
+      # - id: detect-aws-credentials
+      - id: detect-private-key
+
+  # Code formatter for Python
+  - repo: https://github.com/psf/black
+    rev: 23.12.1
+    hooks:
+      - id: black
+        args: [--diff, --check]
+
+  # Formatter for Python docstrings
+  - repo: https://github.com/asottile/blacken-docs
+    rev: 1.16.0
+    hooks:
+      - id: blacken-docs
+        additional_dependencies: [black==22.3.0]
+
+  # Tool to seed isort configurations
+  - repo: https://github.com/asottile/seed-isort-config
+    rev: v2.2.0
+    hooks:
+      - id: seed-isort-config
+
+  # Code formatter for Python with specific line length
+  # - repo: https://github.com/bsamseth/blackbricks
+  #   rev: 2.1.3
+  #   hooks:
+  #     - id: blackbricks
+  #       args: [--line-length=88]
+
+  # Code formatter for Python imports
+  - repo: https://github.com/pre-commit/mirrors-isort
+    rev: v5.10.1
+    hooks:
+      - id: isort
+
+  # Upgrade Python code to a newer version
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.15.0
+    hooks:
+      - id: pyupgrade
+        args: [--py36-plus]
+
+  # Python linter with specific configurations
+  - repo: https://github.com/pre-commit/mirrors-pylint
+    rev: v3.0.0a5
+    hooks:
+      - id: pylint
+        args: [--disable=all, --enable=unused-import]
+
+  # Static type checker for Python
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
+    hooks:
+      - id: mypy
+        exclude: ^tests/
+        args: [--strict]
+
+  # Commit message linter
+  - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
+    rev: v9.11.0
+    hooks:
+      - id: commitlint
+        stages: [commit-msg]
+
+  # Security linter for Python code
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.6
+    hooks:
+      - id: bandit
+
+  # Custom pre-commit hooks for various checks in Python code
+  - repo: https://github.com/best-doctor/pre-commit-hooks
+    rev: v1.0.11
+    hooks:
+      - id: no-asserts
+        name: Check no asserts in code
+        language: python
+        exclude: /tests/
+      - id: test-naming
+        name: Check if tests named appropriately
+        language: python
+
+  # Tool to reorder Python imports
+  - repo: https://github.com/asottile/reorder-python-imports
+    rev: v3.12.0
+    hooks:
+      - id: reorder-python-imports
+
+  # Collection of pre-commit hooks for common tasks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-yaml
+      - id: check-json
+      - id: check-added-large-files
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: mixed-line-ending
+      # AWS credential check is disabled for now
+      # - id: detect-aws-credentials
+      - id: detect-private-key
+
+  # Code formatter for Python
+  - repo: https://github.com/psf/black
+    rev: 23.12.1
+    hooks:
+      - id: black
+        args: [--diff, --check]
+
+  # Formatter for Python docstrings
+  - repo: https://github.com/asottile/blacken-docs
+    rev: 1.16.0
+    hooks:
+      - id: blacken-docs
+        additional_dependencies: [black==22.3.0]
+
+  # Tool to seed isort configurations
+  - repo: https://github.com/asottile/seed-isort-config
+    rev: v2.2.0
+    hooks:
+      - id: seed-isort-config
+
+  # # Code formatter for Python with specific line length
+  # - repo: https://github.com/bsamseth/blackbricks
+  #   rev: 2.1.3
+  #   hooks:
+  #     - id: blackbricks
+  #       args: [--line-length=88]
+
+  # Code formatter for Python imports
+  - repo: https://github.com/pre-commit/mirrors-isort
+    rev: v5.10.1
+    hooks:
+      - id: isort
+
+  # Upgrade Python code to a newer version
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.15.0
+    hooks:
+      - id: pyupgrade
+        args: [--py36-plus]
+
+  # Python linter with specific configurations
+  - repo: https://github.com/pre-commit/mirrors-pylint
+    rev: v3.0.0a5
+    hooks:
+      - id: pylint
+        args: [--disable=all, --enable=unused-import]
+
+  # Static type checker for Python
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
+    hooks:
+      - id: mypy
+        exclude: ^tests/
+        args: [--strict]
+
+  # Commit message linter
+  - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
+    rev: v9.11.0
+    hooks:
+      - id: commitlint
+        stages: [commit-msg]
+
+  # Security linter for Python code
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.6
+    hooks:
+      - id: bandit
+
+  # Custom pre-commit hooks for various checks in Python code
+  - repo: https://github.com/best-doctor/pre-commit-hooks
+    rev: v1.0.11
+    hooks:
+      - id: no-asserts
+        name: Check no asserts in code
+        language: python
+        exclude: /tests/
+      - id: test-naming
+        name: Check if tests named appropriately
+        language: python
+
+  # Tool to reorder Python imports
+  - repo: https://github.com/asottile/reorder-python-imports
+    rev: v3.12.0
+    hooks:
+      - id: reorder-python-imports
