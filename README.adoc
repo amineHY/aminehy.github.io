@@ -3,33 +3,44 @@
 
 image:https://github.com/amineHY/aminehy.github.io/actions/workflows/hugo.yml/badge.svg["Deploy Hugo site to Pages", link="https://github.com/amineHY/aminehy.github.io/actions/workflows/hugo.yml"]
 
-== Setup
+== Installation
 
-* Install link:https://go.dev/doc/install[Go]
-* Install link:https://gohugo.io/installation/linux/[Hugo]
+* Installation of link:https://go.dev/doc/install[Go]
+* Installation of link:https://gohugo.io/installation/linux/[Hugo]
 
-* link:https://gohugo.io/getting-started/quick-start/[Hogo: quick-start]
 
+
+[IMPORTANT]
+====
+* Make sure to install `Go` first, then install `Hugo`
 * Add `env` variable ao `~/.bashrc`
 
     export PATH=$PATH:/usr/local/go/bin
+====
 
-[IMPORTANT]
-Make sure to install `Go` first, then `Hugo`
+== Run website in development
 
-== Create a Hugo website
-
-* Follow the steps here: link:https://gohugo.io/getting-started/quick-start/[quicksstart project]
-
-== Start Hugo’s development server
 
 [source]
 ----
-hugo server
+git clone --recurse-submodules https://github.com/amineHY/aminehy.github.io.git
+
+hugo server --port=8080
 ----
+
+== Quick start
+
+* link:https://gohugo.io/getting-started/quick-start/[Quick start using Hugo]
+
+
+* Follow the steps here to create a new hugo website : link:https://gohugo.io/getting-started/quick-start/[quicksstart project]
+
+
 
 == Adding content to the website
 
+* Use the command
++
 [source]
 ----
 hugo new posts/my-first-post.md
@@ -43,15 +54,10 @@ hugo server --buildDrafts
 hugo server -D
 ----
 
-== Configure the site
 
-== To set a specific port
 
-    hugo server --port=8080
 
-== Clone github repo
-    
-    git clone --recurse-submodules https://github.com/amineHY/aminehy.github.io.git
+
 
 // ^$\n\n+  =>  \n
 

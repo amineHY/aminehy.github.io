@@ -6,11 +6,11 @@ draft: false
 :icons: font
 include::common/config/config_urls.adoc[]
 
-Bonjour, je m'appelle *Amine Hadj-Youcef*. Je fournis des services de consultation en intelligence artificielle, Data science & engineering, et en formation professionnel, pour les d'entreprise en définissant leurs besoins métiers et en les traduisant en solutions techniques en Data Science et intelligence Artificielle.
+Bonjour, je m'appelle **Amine Hadj-Youcef**. Je propose des services de consultation en intelligence artificielle, Data Science & Engineering, ainsi que des formations professionnelles pour les entreprises. Mon approche consiste à définir les besoins métiers de mes clients et à les traduire en solutions techniques en Data Science et intelligence artificielle.
 
-Je suis spécialisé dans la collecte, l'analyse et l'exploration de données, ainsi que dans la conception de tableaux de bord analytiques et la production de solutions de machine learning sur le cloud.
+Je me spécialise dans la collecte, l'analyse et l'exploration de données, ainsi que dans la conception de tableaux de bord analytiques et la création de solutions de machine learning sur le cloud.
 
-Mon expertise s'étend également à la gestion de projet, en mettant l'accent sur le suivi, la direction et l'atteinte des objectifs et des délais du projet.
+Mon expertise s'étend également à la gestion de projet, mettant l'accent sur le suivi, la direction et l'atteinte des objectifs et des délais du projet. Mon objectif est d'aider les entreprises à tirer le meilleur parti de leurs données en fournissant des solutions innovantes et efficaces dans le domaine de l'intelligence artificielle et de la Data Science. N'hésitez pas à me contacter pour discuter de la manière dont je peux contribuer au succès de votre projet.
 
 == j'icon:heart[role=red]
 
