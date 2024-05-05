@@ -1,3 +1,4 @@
+// Logos Tools
 :link-bigdata-volume: https://www.statista.com/statistics/871513/worldwide-data-created/
 :link-logo-apache-spark: https://www.vectorlogo.zone/logos/apache_spark/apache_spark-ar21.svg[height=200, alt]
 :link-logo-apache-hadoop: https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-ar21.svg[height=200, alt]
@@ -12,30 +13,42 @@
 :link-logo-kaggle: https://www.vectorlogo.zone/logos/kaggle/kaggle-ar21.svg[height=200, alt]
 :link-logo-github: https://www.vectorlogo.zone/logos/github/github-ar21.svg[height=200, alt]
 :link-logo-heroku: https://www.vectorlogo.zone/logos/heroku/heroku-ar21.svg[height=200, alt]
+:link-logo-greenflex: https://th.bing.com/th/id/R.4db4a129855b858a22826922a67fc4e0?rik=gcRN38CkEr9cuw&pid=ImgRaw&r=0
 :link-netronapp: https://netron.app/
 :link-netronapp-github: https://github.com/lutzroeder/netron
+:link-logo-teams: https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg[height=200, alt]
+
+// Background
 :link-background-1: https://www.iflexion.com/files/styles/share-open-graph/public/content/research/ai-applications.jpg?itok=6DTALNTB
 :link-background-2: https://getwallpapers.com/wallpaper/full/1/e/e/266647.jpg
 :link-background-3: https://images.unsplash.com/photo-1611532736419-bfe35e04dd78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80
 :link-background-4: https://images.unsplash.com/photo-1633613286848-e6f43bbafb8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cXVlc3Rpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
 :link-background-5: https://marp.app/assets/hero-background.svg
-:link-logo-teams: https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg[height=200, alt]
+
+// Companies
 :link-logo-tf1: https://upload.wikimedia.org/wikipedia/commons/4/46/TF1_logo_2006.svg
-:link-logo-bouygues: https://upload.wikimedia.org/wikipedia/commons/c/ce/Logo_Bouygues_Immobilier.png
+:link-logo-Bouygues: https://upload.wikimedia.org/wikipedia/commons/c/ce/Logo_Bouygues_Immobilier.png
 :link-logo-atos: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Atos_Origin_2011_logo.svg/640px-Atos_Origin_2011_logo.svg.png
 :link-logo-decathlon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Decathlon_Logo.svg/640px-Decathlon_Logo.svg.png
-:link-logo-lucy: https://lucyinthecloud.com/app/uploads/2020/06/lucy-in-the-cloud-logo.png
-:link-logo-Saclay: https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Universit%C3%A9_Paris-Saclay.svg
-:link-logo-supelec: https://upload.wikimedia.org/wikipedia/commons/d/de/LogoCS.png
+:link-logo-lucy: https://lucyinthecloud.com/wp-content/uploads/2023/03/logo-lucy.png
+:link-logo-micropole: https://th.bing.com/th/id/OIP.BwrO_ak3Gh5ppYFRKkKoFAHaBZ?rs=1&pid=ImgDetMain
+:link-logo-sopra: https://exforcesinbusiness.co.uk/wp-content/uploads/2019/02/Sopra_Steria_logo.svg_-1080x149.png
+
 :link-logo-sncf: https://upload.wikimedia.org/wikipedia/fr/e/ec/Logo_SNCF_R%C3%A9seau_2015.svg
 :link-logo-dv: https://www.dronevolt.com/wp-content/uploads/2020/01/logo_dronevolt_menu.svg
 :link-logo-tag: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/TAG_Heuer_logo.svg/1200px-TAG_Heuer_logo.svg.png
 :link-logo-ias: https://www.ias.u-psud.fr/sites/default/files/logoias.jpg
+
 :link-logo-supelec: https://upload.wikimedia.org/wikipedia/commons/b/b3/Ecole_Centrale_Supelec_logo.svg
-:link-logo-m2i: https://yt3.ggpht.com/a/AGF-l791eNhIhlL3lHjcx0_P1QCf7JlmKzS37uwJbg=s900-c-k-c0xffffffff-no-rj-mo
+:link-logo-Saclay: https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Universit%C3%A9_Paris-Saclay.svg
+// :link-logo-supelec: https://upload.wikimedia.org/wikipedia/commons/d/de/LogoCS.png
+
+// Companies Teaching
+:link-logo-m2i: https://th.bing.com/th/id/OIP.EmYy0zAuRHI6IkLjzkt5hwHaHf?w=172&h=180&c=7&r=0&o=5&dpr=2&pid=1.7
 :link-logo-oc: https://i.pinimg.com/736x/2c/a6/c8/2ca6c8d907e76428a30ce6b4aad8f6a6.jpg
+:link-logo-polytech_psud: https://th.bing.com/th/id/R.af2e9c8d70cd52faeb04212cc52a695d?rik=EYdvY3%2f0e42kUA&pid=ImgRaw&r=0
+:link-logo-esi: https://www.esi.dz/wp-content/uploads/2021/04/ESI-Logo-BG-e1627076162748.png
 :link-logo-ets: https://www.etsmtl.ca/getmedia/826e98bf-cb67-4281-8a25-69bdd0038590/Logo_ETS_TypoGrise_D_EN_1
 :link-logo-enp: https://www.enp.edu.dz/storage/2020/06/logo-ENP-hd-1024x897-1.png
-:link-logo-esi: https://www.esi.dz/wp-content/uploads/2021/04/ESI-Logo-BG-e1627076162748.png
 :link-logo-ubordeaux: https://upload.wikimedia.org/wikipedia/commons/e/e9/Universit%C3%A4t_Bordeaux_Logo.svg
-:link-logo-imb: https://www.math.u-bordeaux.fr/~jcerri/images/logo_imb.png
+:link-logo-imb: https://th.bing.com/th/id/OIP.6-LxfqwLjkdgoNsgyLAP2gHaFO?rs=1&pid=ImgDetMain

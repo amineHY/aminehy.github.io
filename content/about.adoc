@@ -1,45 +1,77 @@
 ---
-title: "A propos"
+title: "À propos"
 date: 2023-03-05T15:04:43+01:00
 draft: false
 ---
+
 :icons: font
 include::common/config/config_urls.adoc[]
-
 Bonjour, je m'appelle **Amine Hadj-Youcef**. Je propose des services de consultation en intelligence artificielle, Data Science & Engineering, ainsi que des formations professionnelles pour les entreprises. Mon approche consiste à définir les besoins métiers de mes clients et à les traduire en solutions techniques en Data Science et intelligence artificielle.
 
 Je me spécialise dans la collecte, l'analyse et l'exploration de données, ainsi que dans la conception de tableaux de bord analytiques et la création de solutions de machine learning sur le cloud.
 
 Mon expertise s'étend également à la gestion de projet, mettant l'accent sur le suivi, la direction et l'atteinte des objectifs et des délais du projet. Mon objectif est d'aider les entreprises à tirer le meilleur parti de leurs données en fournissant des solutions innovantes et efficaces dans le domaine de l'intelligence artificielle et de la Data Science. N'hésitez pas à me contacter pour discuter de la manière dont je peux contribuer au succès de votre projet.
 
-== j'icon:heart[role=red]
+== Liste de clients
+
+image:{link-logo-greenflex}[height=50]
 
 image:{link-logo-sncf}[height=50]
+
 image:{link-logo-tag}[height=50]
+
 image:{link-logo-dv}[height=50]
+
 image:{link-logo-ias}[height=50]
 
-image:{link-logo-saclay}[height=50]
-image:{link-logo-supelec}[height=50]
-image:{link-logo-ets}[height=50]
-image:{link-logo-imb}[height=50]
-image:{link-logo-ubordeaux}[height=50]
-image:{link-logo-enp}[height=50]
-image:{link-logo-esi}[height=50]
+
+== Liste de clients dont j'ai formé des ingénieurs
 
 image:{link-logo-atos}[height=50]
+
 image:{link-logo-tf1}[height=50]
+
 image:{link-logo-bouygues}[height=50]
+
 image:{link-logo-decathlon}[height=50]
+
 image:{link-logo-lucy}[height=50]
 
+image:{link-logo-micropole}[height=50]
+
+image:{link-logo-sopra}[height=50]
+
+
+== Établissements d'enseignement
+
 image:{link-logo-m2i}[height=50]
+
 image:{link-logo-oc}[height=50]
 
-== Contactez moi
+image:{link-logo-polytech_psud}[height=50]
 
-icon:envelope[link="mailto:hadjyoucef.amine@gmail.com", window=_blanc]
-icon:linkedin[link="https://www.linkedin.com/in/aminehy/", window=_blanc]
-
+image:{link-logo-esi}[height=50]
 
 
+== Établissements de Formation
+
+image:{link-logo-saclay}[height=50]
+
+image:{link-logo-supelec}[height=50]
+
+image:{link-logo-ets}[height=50]
+
+image:{link-logo-imb}[height=50]
+
+image:{link-logo-ubordeaux}[height=50]
+
+image:{link-logo-enp}[height=50]
+
+
+== Contactez-moi
+
+Pour discuter de vos besoins en intelligence artificielle ou data science, n'hésitez pas à me contacter par email ou via LinkedIn. Je serai ravi de vous aider à réaliser vos projets !
+
+icon:envelope[link="mailto:hadjyoucef.amine@gmail.com", window=_blanc] Contactez-moi par email
+
+icon:linkedin[link="https://www.linkedin.com/in/aminehy/", window=_blanc] Visitez mon profil LinkedIn
