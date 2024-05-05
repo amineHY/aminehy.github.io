@@ -1,6 +1,6 @@
 # Main
 baseurl = "https://aminehy.github.io/"
-title = "Amine"
+title = "AHY"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -26,7 +26,7 @@ enableTwemoji = true
 colorScheme = "auto"
 hidecolorschemetoggle = false
 
-darkmode = true
+darkmode = false
 # customCSS = ["./common/asciidoctor.css"]
 # customSCSS = ["scss/custom.scss"]
 # customJS = ["js/custom.js"]
