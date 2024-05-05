@@ -10,7 +10,7 @@ paginate = 20
 # Site meta data
 [params]
 author = "Amine Hadj-Youcef"
-info = "Lead Data Scientist & Machine Learning Engineer"
+info = "Senior Engineer / Scientist - MLops"
 description = "Amine Hadj-Youcef's personal website"
 keywords = "blog,developer,personal"
 avatarURL = "https://aminehy.github.io/assets/images/photo_linkedin_2020.png"
@@ -19,7 +19,7 @@ gravatar = "hadjyoucef.amine@gmail.com"
 favicon_32 = "favicon.ico"
 favicon_16 = "favicon.ico"
 
-since = 2023
+since = 2024
 
 enableTwemoji = true
 
