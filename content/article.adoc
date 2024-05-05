@@ -4,8 +4,6 @@ date: 2023-03-05T19:04:47+01:00
 draft: false
 ---
 
-==  Articles publiés dans Medium
-
 * link:https://amine-hy.medium.com/data-visualization-using-redash-on-the-cloud-63f6d4f2f1ef[Data Visualization using Redash on the Cloud, window=_blank]
 * link:https://medium.com/towards-data-science/convolutional-neural-network-for-image-classification-with-implementation-on-python-using-pytorch-7b88342c9ca9[Deep Learning for Image Classification with Implementation in PyTorch, window=_blank]
 * link:https://medium.com/towards-data-science/have-you-optimized-your-deep-learning-model-before-deployment-cdc3aa7f413d[Have you Optimized your Deep Learning Model Before Deployment?, window=_blank]

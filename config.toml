@@ -104,25 +104,27 @@ url = "https://cv.hal.science/mohamed-elamine-hadj-youcef"
 IsMultiLingual = true
 
 # Menu links
-[[menu.main]]
-name = "CV"
-weight = 1
-url = "cv_fr"
+
 
 [[menu.main]]
 name = "Blog"
-weight = 2
+weight = 1
 url = "posts/"
 
 [[menu.main]]
 name = "Articles"
-weight = 3
+weight = 2
 url = "article/"
 
 [[menu.main]]
 name = "Publications"
-weight = 4
+weight = 3
 url = "publications/"
+
+[[menu.main]]
+name = "CV"
+weight = 4
+url = "cv_fr"
 
 [[menu.main]]
 name = "A propos"

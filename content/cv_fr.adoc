@@ -4,68 +4,30 @@ date: 2023-03-05T19:04:47+01:00
 draft: false
 ---
 
-== EXPÉRIENCE PROFESSIONNEL
+== Expérience Professionnelle :
 
-=== Senior Data Scientist & Engineer
-SNCF Réseau, Saint-Denis (93), France
+*SNCF Réseau* (Saint-Denis, France) : Principal responsable de la validation et de la préparation des pipelines de données, gestion de projets d’IA, encadrement d’équipe, et développement d’une application de détection de pannes, augmentant le taux de détection de 5% à 100%.
 
-* Dirigé l'assistance 4+ clients de la SNCF dans la définition de leurs besoins, la traduction des exigences métier en problèmes techniques, l'engagement dans le développement agile et la validation, le tout dans le but de fournir des solutions d'IA de bout en bout.
+*TAG Heuer / LVMH W&J* (Paris, France) : Amélioration de la montre TAG Heuer Connected par le développement d’algorithmes pour les données IoT et déploiement d’un tableau de bord pour les parties prenantes.
 
-* Chargé principal de la validation, de l'ingestion et de la préparation des pipelines de données massives en continu provenant des trains, pour un contrat de données d'une valeur de 900 000 € (Python, SQL, Apache Spark, Databricks, Delta Live Table et Microsoft Azure).
+*Drone Volt Group* (Villepinte, France) : Développement d’un modèle de détection d’incendie pour caméra de drone, formation de l’équipe commerciale, et présentation du produit, générant un investissement significatif.
 
-* Encadré avec succès une équipe de data scientists et data engineers juniors, en leur permettant d'atteindre leur plein potentiel et en assurant un suivi technique rigoureux des projets.
+*Institut d’Astrophysique Spatiale* (Orsay, France) : Collaboration au projet JWST, développement d’outils de traitement de données, rédaction d’articles scientifiques et présentations internationales.
 
-* Développé une application de détection de pannes automatisée pour améliorer la maintenance des capteurs de vitesse sur le réseau ferré français, en effectuant des analyses de données massives, en construisant des modèles de machine learning et en mettant en place des tableaux de bord Power BI. Résultat : le taux de détection a augmenté de 100%, passant de 5% à 100%, et l'efficacité a été significativement améliorée.
+== Éducation :
 
-=== Data Scientist
-TAG Heuer / LVMH W&J, Paris (75), France
+Doctorat (Université Paris-Saclay, France)
 
-* Amélioration de la montre TAG Heuer Connected en développant des algorithmes intelligents pour traiter les données IoT, corriger les anomalies avec des techniques sophistiquées et augmenter la précision des métriques sportives de la montre.
+Master (Université de Bordeaux, France)
 
-* Traité, nettoyé, préparé et analysé différents types de données (GPS, nombre de pas, etc.) pour identifier des informations pertinentes.
-Mis en place d'algorithmes de machine learning pour détecter les anomalies dans les données.
+Diplôme Ingénieur (École Nationale Polytechnique, Algérie).
 
-* Déploiement d'un tableau de bord convivial avec Docker et Streamlit, permettant aux parties prenantes non techniques d'accéder et de comprendre les informations générées par les données.
+== Certifications :
 
-* Communiqué les résultats et participé à des réunions avec des équipes pluridisciplinaires pour assurer l'alignement et la compréhension dans toute l'organisation.
-
-=== Data Scientist - Computer Vision Engineer
-Drone Volt Group, Villepinte (93), France
-
-* Collaboré au sein d'une équipe agile basée aux Pays-Bas pour développer le SDK de la caméra à intelligence artificielle infrarouge, en contribuant à ses fonctionnalités et à ses caractéristiques.
-
-* Développé un modèle d'apprentissage en profondeur de détection d'incendie en temps réel en collectant, préparant et annotant des images. Déployé le modèle sur une caméra de drone en utilisant les technologies Python, Tensorflow, Docker et NVIDIA GPU. Résultat : une augmentation de 20% de l'exactitude.
-
-* Rédigé la documentation technique pour la solution d'IA et fourni une formation à l'équipe commerciale chez DRONE VOLT sur son utilisation, en leur fournissant les connaissances nécessaires pour vendre efficacement le produit aux clients et aux investisseurs.
-
-* Formé l'équipe commerciale chez DRONE VOLT à l'utilisation de la caméra IA développée et présenté le produit aux clients et aux investisseurs, ce qui a entraîné une augmentation significative de l'intérêt et de l'investissement (1 132 millions d'euros).
+Lakehouse Fundamentals (Databricks), Mentor AI (HackerMaker).
 
 
-=== Ingénieur R&D Traitement d'images
-Institut d'Astrophysique Spatiale. Orsay (91), France
+== Compétences Techniques :
 
-* Collaboré avec 14 pays participants dans le projet du télescope spatial James Webb (JWST : *NASA/ESA/CSA*) pour innover une solution de traitement de données, avec un budget supérieur à 10 milliards de dollars.
-
-* Conçu et développé un simulateur de données pour l'imageur infrarouge MIRI, et un outil de reconstruction de données hyper-spectrales du télescope JWST à l'aide des modèles machine learning et des mathématiques avancés, améliorant significativement la précision des données.
-
-* Effectué une veille technologique et des recherches bibliographiques pour maintenir la pertinence de la solution et garantir sa conformité aux normes internationales.
-
-* Rédigé plus de 8 articles scientifiques et présenté les travaux lors de 3 conférences internationales, communiquant avec succès les résultats au public.
-* Collaboré à la création d'un package Python et d'un article de journal pour diffuser largement la solution auprès de la communauté scientifique.
-
-// ##########
-// ##########
-
-== ÉDUCATION
-
-* 2018: Doctorat de Université Paris-Saclay, France (Science et Technologie de l’Information)
-* 2015: Master de Université de Bordeaux, France (Traitement du Signal et de l’Image)
-* 2012: Diplôme Ingénieur de l'École Nationale Polytechnique, Algérie (Ingénierie Électronique)
-
-== CERTIFICATIONS
-* 2023: Lakehouse Fundamentals, Databricks
-* 2019: Mentor AI, HackerMaker
-
-== COMPÉTENCES TECHNIQUES
-Python, SQL, Shell, Apache Spark, Apache Airflow, Docker, Kubernetes, Azure, Databricks, Delta Live Table, Microsoft Azure, Google Cloud Platform, AWS, MapReduce, TensorFlow, Keras, PyTorch, Scikit-learn, Numpy, Pandas, Matplotlib, Seaborn, Jupyter Notebooks, Streamlit, Flask, 
-FastAPI,
+Langages : Python, SQL, Shell.
+Technologies : Apache Spark, Apache Airflow, Docker, Kubernetes, Cloud Platforms (Azure, GCP, AWS), Machine Learning (TensorFlow, Keras, PyTorch, Scikit-learn), Data Visualization (Matplotlib, Seaborn, Power BI), Web Development (Streamlit, Flask, FastAPI).
