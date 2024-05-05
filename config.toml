@@ -27,10 +27,6 @@ colorScheme = "auto"
 hidecolorschemetoggle = false
 
 darkmode = false
-# customCSS = ["./common/asciidoctor.css"]
-# customSCSS = ["scss/custom.scss"]
-# customJS = ["js/custom.js"]
-
 
 # Markup settings
 [markup]
@@ -48,6 +44,7 @@ noClasses = true
 noHl = false
 style = 'monokai'
 tabWidth = 4
+
 [markup.asciidocExt]
 backend = 'html5'
 extensions = ["coderay"]
@@ -60,6 +57,7 @@ trace = false
 verbose = false
 workingFolderCurrent = false
 source-highlighter = "coderay"
+
 [markup.asciidocExt.attributes]
 stylesheet = "https://cdnjs.cloudflare.com/ajax/libs/coderay/1.1.2/stylesheets/coderay.min.css"
 hide-uri-scheme = true
@@ -83,16 +81,19 @@ name = "LinkedIn"
 icon = "fa fa-linkedin fa-2x"
 weight = 1
 url = "https://www.linkedin.com/in/aminehy/"
+
 [[params.social]]
 name = "Medium"
 icon = "fa fa-medium fa-2x"
 weight = 3
 url = "https://amine-hy.medium.com/"
+
 [[params.social]]
 name = "Google Scholar"
 icon = "fa fa-google fa-2x"
 weight = 3
 url = "https://scholar.google.com/citations?user=NXUvxIMAAAAJ&hl=en"
+
 [[params.social]]
 name = "hal"
 icon = "fa fa-hal fa-2x"
@@ -107,18 +108,22 @@ IsMultiLingual = true
 name = "CV"
 weight = 1
 url = "cv_fr"
+
 [[menu.main]]
 name = "Blog"
 weight = 2
 url = "posts/"
+
 [[menu.main]]
 name = "Articles"
 weight = 3
 url = "article/"
+
 [[menu.main]]
 name = "Publications"
 weight = 4
 url = "publications/"
+
 [[menu.main]]
 name = "A propos"
 weight = 5
