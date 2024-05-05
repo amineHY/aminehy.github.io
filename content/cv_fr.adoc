@@ -6,6 +6,10 @@ draft: false
 
 == Expérience Professionnelle :
 
+*GreenFlex – Filiale Total Energie* Amélioration de la plate-forme GreenFlex-IQ en production, conception et implémentation de pipelines de données sur Databricks et AWS, déploiement de modèles de machine learning, et intégration de LLM pour l’automatisation de la saisie des factures.
+
+
+
 *SNCF Réseau* (Saint-Denis, France) : Principal responsable de la validation et de la préparation des pipelines de données, gestion de projets d’IA, encadrement d’équipe, et développement d’une application de détection de pannes, augmentant le taux de détection de 5% à 100%.
 
 *TAG Heuer / LVMH W&J* (Paris, France) : Amélioration de la montre TAG Heuer Connected par le développement d’algorithmes pour les données IoT et déploiement d’un tableau de bord pour les parties prenantes.
