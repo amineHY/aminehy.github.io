@@ -7,191 +7,126 @@ defaultcontentlanguage = "en"
 
 paginate = 20
 
-
-
-
 # Site meta data
 [params]
-  author = "Amine Hadj-Youcef"
-  info = "Lead Data Scientist & Machine Learning Engineer"
-  description = "Amine Hadj-Youcef's personal website"
-  keywords = "blog,developer,personal"
-  avatarURL = "https://aminehy.github.io/assets/images/photo_linkedin_2020.png"
-  gravatar = "hadjyoucef.amine@gmail.com"
+author = "Amine Hadj-Youcef"
+info = "Lead Data Scientist & Machine Learning Engineer"
+description = "Amine Hadj-Youcef's personal website"
+keywords = "blog,developer,personal"
+avatarURL = "https://aminehy.github.io/assets/images/photo_linkedin_2020.png"
+gravatar = "hadjyoucef.amine@gmail.com"
 
-  favicon_32 = "favicon.ico"
-  favicon_16 = "favicon.ico"
+favicon_32 = "favicon.ico"
+favicon_16 = "favicon.ico"
 
-  since = 2023
+since = 2023
 
-  enableTwemoji = true
+enableTwemoji = true
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
+colorScheme = "auto"
+hidecolorschemetoggle = false
 
-  darkmode = true
-  # customCSS = ["./common/asciidoctor.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
-
+darkmode = true
+# customCSS = ["./common/asciidoctor.css"]
+# customSCSS = ["scss/custom.scss"]
+# customJS = ["js/custom.js"]
 
 
 # Markup settings
 [markup]
-  [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ''
-    hl_inline = false
-    lineAnchors = ''
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    noHl = false
-    style = 'monokai'
-    tabWidth = 4
-  [markup.asciidocExt]
-    backend = 'html5'
-    extensions = ["coderay"]
-    failureLevel = 'fatal'
-    noHeaderOrFooter = true
-    preserveTOC = true
-    safeMode = 'unsafe'
-    sectionNumbers = false
-    trace = false
-    verbose = false
-    workingFolderCurrent = false
-    source-highlighter = "coderay"
-    [markup.asciidocExt.attributes]
-      stylesheet = "https://cdnjs.cloudflare.com/ajax/libs/coderay/1.1.2/stylesheets/coderay.min.css"
-      hide-uri-scheme = true
-      sectlinks = true
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+hl_inline = false
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+noHl = false
+style = 'monokai'
+tabWidth = 4
+[markup.asciidocExt]
+backend = 'html5'
+extensions = ["coderay"]
+failureLevel = 'fatal'
+noHeaderOrFooter = true
+preserveTOC = true
+safeMode = 'unsafe'
+sectionNumbers = false
+trace = false
+verbose = false
+workingFolderCurrent = false
+source-highlighter = "coderay"
+[markup.asciidocExt.attributes]
+stylesheet = "https://cdnjs.cloudflare.com/ajax/libs/coderay/1.1.2/stylesheets/coderay.min.css"
+hide-uri-scheme = true
+sectlinks = true
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
 
 # Social links
 [[params.social]]
-  name = "Github"
-  icon = "fa fa-github fa-2x"
-  weight = 2
-  url = "https://github.com/aminehy/"
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 2
+url = "https://github.com/aminehy/"
 
 [[params.social]]
-  name = "LinkedIn"
-  icon = "fa fa-linkedin fa-2x"
-  weight = 1
-  url = "https://www.linkedin.com/in/aminehy/"
+name = "LinkedIn"
+icon = "fa fa-linkedin fa-2x"
+weight = 1
+url = "https://www.linkedin.com/in/aminehy/"
 [[params.social]]
-  name = "Medium"
-  icon = "fa fa-medium fa-2x"
-  weight = 3
-  url = "https://amine-hy.medium.com/"
+name = "Medium"
+icon = "fa fa-medium fa-2x"
+weight = 3
+url = "https://amine-hy.medium.com/"
 [[params.social]]
-  name = "Google Scholar"
-  icon = "fa fa-google fa-2x"
-  weight = 3
-  url = "https://scholar.google.com/citations?user=NXUvxIMAAAAJ&hl=en"
+name = "Google Scholar"
+icon = "fa fa-google fa-2x"
+weight = 3
+url = "https://scholar.google.com/citations?user=NXUvxIMAAAAJ&hl=en"
 [[params.social]]
-  name = "hal"
-  icon = "fa fa-hal fa-2x"
-  weight = 3
-  url = "https://cv.hal.science/mohamed-elamine-hadj-youcef"
+name = "hal"
+icon = "fa fa-hal fa-2x"
+weight = 3
+url = "https://cv.hal.science/mohamed-elamine-hadj-youcef"
 
 [[IsMultiLingual]]
 IsMultiLingual = true
 
 # Menu links
 [[menu.main]]
-  name = "CV"
-  weight = 1
-  url = "cv_fr"
+name = "CV"
+weight = 1
+url = "cv_fr"
 [[menu.main]]
-  name = "Blog"
-  weight = 2
-  url  = "posts/"
+name = "Blog"
+weight = 2
+url = "posts/"
 [[menu.main]]
-  name = "Articles"
-  weight = 3
-  url = "article/"
+name = "Articles"
+weight = 3
+url = "article/"
 [[menu.main]]
-  name = "Publications"
-  weight = 4
-  url = "publications/"
+name = "Publications"
+weight = 4
+url = "publications/"
 [[menu.main]]
-  name = "A propos"
-  weight = 5
-  url = "about/"
+name = "A propos"
+weight = 5
+url = "about/"
 
 # SECURITY
 [security.exec]
 allow = ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$", "^asciidoctor$"]
 
-# defaultContentLanguage = "fr"
-
-# [languages]
-#   [languages.en]
-#   weight = 2
-#   # title = "My New Hugo Site"
-#   languageCode = "en"
-#   languageName = "English"
-#   [[languages.en.menu.main]]
-#     weight = 1
-#     identifier = "posts"
-#     pre = ""
-#     post = ""
-#     name = "Posts"
-#     url = "/posts/"
-#     title = ""
-#   [[languages.en.menu.main]]
-#     weight = 2
-#     identifier = "tags"
-#     pre = ""
-#     post = ""
-#     name = "Tags"
-#     url = "/tags/"
-#     title = ""
-#   [[languages.en.menu.main]]
-#     weight = 3
-#     identifier = "categories"
-#     pre = ""
-#     post = ""
-#     name = "Categories"
-#     url = "/categories/"
-#     title = ""
-
-#   [languages.fr]
-#   weight = 1
-#   title = "Mon nouveau site Hugo"
-#   languageCode = "fr"
-#   languageName = "Français"
-#   [[languages.fr.menu.main]]
-#     weight = 1
-#     identifier = "posts"
-#     pre = ""
-#     post = ""
-#     name = "Postes"
-#     url = "/posts/"
-#     title = ""
-#   [[languages.fr.menu.main]]
-#     weight = 2
-#     identifier = "tags"
-#     pre = ""
-#     post = ""
-#     name = "Balises"
-#     url = "/tags/"
-#     title = ""
-#   [[languages.fr.menu.main]]
-#     weight = 3
-#     identifier = "categories"
-#     name = "Catégories"
-#     pre = ""
-#     post = ""
-#     url = "/categories/"
-#     title = ""
-
+[asciidoctor]
+path = "/opt/homebrew/opt/ruby/bin/asciidoctor"

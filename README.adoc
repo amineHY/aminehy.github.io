@@ -20,8 +20,7 @@ image:https://github.com/amineHY/aminehy.github.io/actions/workflows/hugo.yml/ba
 
 == Run website in development
 
-
-[source]
+[source, bash]
 ----
 git clone --recurse-submodules https://github.com/amineHY/aminehy.github.io.git
 
@@ -33,9 +32,11 @@ hugo server --port=8080
 * link:https://gohugo.io/getting-started/quick-start/[Quick start using Hugo]
 
 
-* Follow the steps here to create a new hugo website : link:https://gohugo.io/getting-started/quick-start/[quicksstart project]
+* Follow the steps here to create a new hugo website : link:https://gohugo.io/getting-started/quick-start/[Quick Start project]
 
 
+== Hugo Theme 
+* Hugo-Coder : https://github.com/luizdepra/hugo-coder
 
 == Adding content to the website
 
@@ -54,8 +55,8 @@ hugo server --buildDrafts
 hugo server -D
 ----
 
-
-
+== Adding content
+Edit the Landing Page Content: Open the `content/_index.md` file and edit the content according to your needs. This file is written in Markdown format, so you can use Markdown syntax to structure your content, add headings, lists, images, etc.
 
 
 

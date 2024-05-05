@@ -2,42 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://aminehy.github.io/publications/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2023-03-05T19:05:11+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/</loc>
+    <lastmod>2023-03-05T19:05:11+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publications/</loc>
     <lastmod>2023-03-05T19:04:59+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/articles/</loc>
+    <loc>http://localhost:1313/article/</loc>
     <lastmod>2023-03-05T19:04:47+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/cv_fr/</loc>
+    <loc>http://localhost:1313/cv_fr/</loc>
     <lastmod>2023-03-05T19:04:47+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/about/</loc>
+    <loc>http://localhost:1313/cv_en/</loc>
+    <lastmod>2023-03-05T19:04:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2023-03-05T15:04:43+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2022-03-05T11:35:18+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/posts/guide_4_data_visualiation/</loc>
+    <loc>http://localhost:1313/categories/data-science/</loc>
     <lastmod>2022-03-05T11:35:18+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/guide_4_data_visualiation/</loc>
     <lastmod>2022-03-05T11:35:18+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/posts/guide_3_ml_concepts_important-copy/</loc>
+    <loc>http://localhost:1313/categories/machine-learning/</loc>
+    <lastmod>2022-03-05T11:35:18+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2022-03-05T11:35:18+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2022-03-05T11:35:18+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/visualisation/</loc>
+    <lastmod>2022-03-05T11:35:18+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/guide_3_ml_concepts/</loc>
     <lastmod>2022-03-05T10:35:18+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/posts/guide_2_machine_learning/</loc>
+    <loc>http://localhost:1313/posts/guide_2_machine_learning/</loc>
     <lastmod>2022-03-05T09:35:18+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/posts/guide_1_data_science/</loc>
+    <loc>http://localhost:1313/posts/post_1/guide_1_data_science/</loc>
     <lastmod>2022-03-05T08:35:18+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/authors/</loc>
+    <loc>http://localhost:1313/tags/machine-learning-supervis%C3%A9/</loc>
+    <lastmod>2022-03-05T08:35:18+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/categories/</loc>
+    <loc>http://localhost:1313/tags/pipeline/</loc>
+    <lastmod>2022-03-05T08:35:18+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/series/</loc>
+    <loc>http://localhost:1313/tags/transformer/</loc>
+    <lastmod>2022-03-05T08:35:18+01:00</lastmod>
   </url><url>
-    <loc>https://aminehy.github.io/tags/</loc>
+    <loc>http://localhost:1313/authors/</loc>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>
