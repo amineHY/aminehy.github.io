@@ -4,7 +4,7 @@ date: 2023-03-05T19:04:47+01:00
 draft: false
 ---
 
-== Expérience Professionnelle :
+== Expérience Professionnelle
 
 *GreenFlex – Filiale Total Energie* (Paris, France) Amélioration de la plate-forme GreenFlex-IQ en production, conception et implémentation de pipelines de données sur Databricks et AWS, déploiement de modèles de machine learning, et intégration de LLM pour l’automatisation de la saisie des factures.
 
@@ -18,7 +18,7 @@ draft: false
 
 *Institut d’Astrophysique Spatiale* (Orsay, France) : Collaboration au projet JWST, développement d’outils de traitement de données, rédaction d’articles scientifiques et présentations internationales.
 
-== Éducation :
+== Éducation
 
 Doctorat (Université Paris-Saclay, France)
 
@@ -26,12 +26,12 @@ Master (Université de Bordeaux, France)
 
 Diplôme Ingénieur (École Nationale Polytechnique, Algérie).
 
-== Certifications :
+== Certifications
 
 Lakehouse Fundamentals (Databricks), Mentor AI (HackerMaker).
 
 
-== Compétences Techniques :
+== Compétences Techniques
 
 Langages : Python, SQL, Shell.
 Technologies : Apache Spark, Apache Airflow, Docker, Kubernetes, Cloud Platforms (Azure, GCP, AWS), Machine Learning (TensorFlow, Keras, PyTorch, Scikit-learn), Data Visualization (Matplotlib, Seaborn, Power BI), Web Development (Streamlit, Flask, FastAPI).
