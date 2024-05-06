@@ -58,13 +58,13 @@ During the first days of the mission, you should focus on the following points:
 
 * Head over to https://databricks.com/try-databricks and create a new databricks account. Make sure to enter the workspace name and AWS region
 +
-image::/steps/Let's%20set%20up%20your%20first%20workspace.png[]
+image::/setup_databricks/Let's%20set%20up%20your%20first%20workspace.png[]
 
 
 * After clicking on the URL sent by email, you will be redirected to this databricks page :
 +
 .https://accounts.cloud.databricks.com/workspaces?showFinishQuickstartModal=true
-image::/steps/Pasted%20Graphic%203.png[]
+image::/setup_databricks/Pasted%20Graphic%203.png[]
 
 .NOTE
 * Email adresse of the Databricks Onboarding Desk :  onboarding-help@databricks.com
@@ -77,18 +77,18 @@ image::/steps/Pasted%20Graphic%203.png[]
 
 
 // .link:https://signin.aws.amazon.com/signin[Amazon Web Services Sign-In]
-// image::/steps/Sign%20in.png[]
+// image::/setup_databricks/Sign%20in.png[]
 
 
 === Create a Databricks workspace
 
 Click on `Create a workspace` button on Databricks and chose `Quickstart (Recommended)` option
 
-image::/steps/image_2024-05-06-11-45-03_.png[]
+image::/setup_databricks/image_2024-05-06-11-45-03_.png[]
 
-image::/steps/image_2024-05-06-11-45-44_.png[]
+image::/setup_databricks/image_2024-05-06-11-45-44_.png[]
 
-image::/steps/image_2024-05-06-11-41-26_.png[]
+image::/setup_databricks/image_2024-05-06-11-41-26_.png[]
 
 
 By clicking on `Start Quickstart`, you will be directed to AWS.
@@ -97,10 +97,10 @@ By clicking on `Start Quickstart`, you will be directed to AWS.
 Next, we have to create a stack on AWS using a template provided by Databricks link:https://databricks-prod-public-cfts.s3.us-west-2.amazonaws.com/templates/uc-by-default-via-backend-oauth/databricks-trial.template.yaml[databricks-trial.template.yaml]
 
 .AWS CloudFormation
-image::/steps/image_2024-05-06-11-42-34_.png[]
+image::/setup_databricks/image_2024-05-06-11-42-34_.png[]
 
 .Create AWS Stack
-image::/steps/image_2024-05-06-12-40-35_.png[]
+image::/setup_databricks/image_2024-05-06-12-40-35_.png[]
 
 === Understand the stack template
 The template sets up the following (*IAM Role, S3 Bucket, Lambda Function*) resources for deploying a Databricks workspace on AWS:
@@ -141,20 +141,20 @@ image:/steps/image_2024-05-06-11-51-46_.png[]
 Click on `Create Stack` button, multiple events will be displayed regarding our `stack creation`
 
 .CREATE IN PROGRESS
-image::/steps/image_2024-05-06-11-59-06_.png[]
+image::/setup_databricks/image_2024-05-06-11-59-06_.png[]
 
 .CREATE COMPLETE
-image::/steps/image_2024-05-06-12-00-55_.png[]
+image::/setup_databricks/image_2024-05-06-12-00-55_.png[]
 === Using Databricks Workspace
 
 .https://accounts.cloud.databricks.com/workspaces
-image::/steps/image_2024-05-06-18-07-12_.png[]
+image::/setup_databricks/image_2024-05-06-18-07-12_.png[]
 
 .link:https://accounts.cloud.databricks.com/workspaces/512881696647569[accounts.cloud.databricks.com/workspaces/512881696647569]
-image::/steps/image_2024-05-06-18-10-19_.png[]
+image::/setup_databricks/image_2024-05-06-18-10-19_.png[]
 
 .link:https://dbc-1468cab5-5250.cloud.databricks.com/?autoLogin=true&account_id=6b926be2-a681-4ca1-91f0-4069055b61e2&o=512881696647569[dbc-1468cab5-5250.cloud.databricks.com]
-image::/steps/image_2024-05-06-18-11-08_.png[]
+image::/setup_databricks/image_2024-05-06-18-11-08_.png[]
 
 === AWS Stack for different Databricks Workspace
 
