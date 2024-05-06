@@ -6,7 +6,7 @@ draft: false
 
 // include::./common/config/config_asciidoc_fr.adoc[]
 
-== List des revues
+== Liste des revues
 
 image:https://upload.wikimedia.org/wikipedia/commons/2/21/IEEE_logo.svg[image, width=70]
 
@@ -16,7 +16,7 @@ image:https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Universit%C3%A9_P
 
 image:https://www.edpsciences.org/images/AA-news-site.jpg[image, width=70]
 
-== Articles de revues internationales
+== Articles publiés dans des revues internationales à comité de lecture
 
 . Hadj-Youcef, M. A., Orieux, F., Abergel, A., & Fraysse, A. (2020).
 link:https://ieeexplore.ieee.org/abstract/document/9103043[Fast Joint Multiband Reconstruction From Wideband Images Based on Low-Rank Approximation, window=_blank]. IEEE Transactions on Computational Imaging, 6, 922–933.
@@ -24,7 +24,7 @@ link:https://ieeexplore.ieee.org/abstract/document/9103043[Fast Joint Multiband 
 . Boucaud, A., Bocchio, M., Abergel, A., Orieux, F., Dole, H., &
 Hadj-Youcef, M. A. (2016). link:https://www.aanda.org/articles/aa/abs/2016/12/aa29080-16/aa29080-16.html[Convolution kernels for multi-wavelength imaging, window=_blank]. _October_, 7.
 
-== Articles de conférences internationales
+== Articles publiés dans des conférences internationales
 
 . Hadj-Youcef, M. A., Bousbia-Salah, A., & Adnane, M. (2018). link:https://ieeexplore.ieee.org/abstract/document/8613366[Feature selection applied to wavelet packet transform for an efficient EEG signal classification, window=_blank]. 2018 International Conference on Electrical Sciences and Technologies in Maghreb.
 

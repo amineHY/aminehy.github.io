@@ -4,10 +4,6 @@ date: 2023-03-05T19:04:39+01:00
 draft: true
 ---
 
-[.text-center]
-*Senior Data Scientist & Engineer, Expert in Spark & Databricks*
-
-
 == PROFESSIONAL EXPERIENCE
 
 === Senior Data Scientist & Engineer | November 2020 - Present | SNCF Réseau, Saint-Denis (93), France
