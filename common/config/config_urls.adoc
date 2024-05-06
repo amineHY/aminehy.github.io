@@ -13,7 +13,7 @@
 :link-logo-kaggle: https://www.vectorlogo.zone/logos/kaggle/kaggle-ar21.svg[height=200, alt]
 :link-logo-github: https://www.vectorlogo.zone/logos/github/github-ar21.svg[height=200, alt]
 :link-logo-heroku: https://www.vectorlogo.zone/logos/heroku/heroku-ar21.svg[height=200, alt]
-:link-logo-greenflex: https://th.bing.com/th/id/R.4db4a129855b858a22826922a67fc4e0?rik=gcRN38CkEr9cuw&pid=ImgRaw&r=0
+:link-logo-greenflex: https://aspenergia.it/wp-content/uploads/2021/10/Logo-GreenFlex-TotalEnergie-CMJN-Couleur-en-1024x417.jpg
 :link-netronapp: https://netron.app/
 :link-netronapp-github: https://github.com/lutzroeder/netron
 :link-logo-teams: https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg[height=200, alt]
