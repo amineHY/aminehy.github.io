@@ -131,7 +131,7 @@ Here is the list of parameters to enter in the `stack creation` page :
 * Stack name, e.g. databricks-workspace-stack-9eccc
 * Account ID (AccountId), e.g. 6b922be2-a681-4ca1-91f0-4069055b61e2
 +
-image:/steps/image_2024-05-06-11-51-46_.png[]
+image:/setup_databricks/image_2024-05-06-11-51-46_.png[]
 * Session Token (SessionToken): auto generated from Databricks
 * Workspace name (WorkspaceName), e.g. rd
 * *IAM role* - optional
