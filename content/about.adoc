@@ -31,58 +31,58 @@ image::/images/image_2024-05-05-18-17-43_.png[height=400px, align="center"]
 
 == Liste de clients
 
-image:{link-logo-greenflex}[height=50]
+image:{link-logo-greenflex}[width=200]
 
-image:{link-logo-sncf}[height=50]
+image:{link-logo-sncf}[width=200]
 
-image:{link-logo-tag}[height=50]
+image:{link-logo-tag}[width=200]
 
-image:{link-logo-dv}[height=50]
+image:{link-logo-dv}[width=200]
 
-image:{link-logo-ias}[height=50]
+image:{link-logo-ias}[width=200]
 
 
 == Liste de clients dont j'ai formé des ingénieurs
 
-image:{link-logo-atos}[height=50]
+image:{link-logo-atos}[width=200]
 
-image:{link-logo-tf1}[height=50]
+image:{link-logo-tf1}[width=200]
 
-image:{link-logo-bouygues}[height=50]
+image:{link-logo-bouygues}[width=200]
 
-image:{link-logo-decathlon}[height=50]
+image:{link-logo-decathlon}[width=200]
 
-image:{link-logo-micropole}[height=50]
+image:{link-logo-micropole}[width=200]
 
-image:{link-logo-lucy}[height=50]
+image:{link-logo-lucy}[width=200]
 
-image:{link-logo-sopra}[height=50]
+image:{link-logo-sopra}[width=200]
 
 
 // == Établissements d'Enseignement
 
-image:{link-logo-m2i}[height=50]
+image:{link-logo-m2i}[width=200]
 
-image:{link-logo-oc}[height=50]
+image:{link-logo-oc}[width=200]
 
-image:{link-logo-polytech_psud}[height=50]
+image:{link-logo-polytech_psud}[width=200]
 
-image:{link-logo-esi}[height=50]
+image:{link-logo-esi}[width=200]
 
 
 == Établissements de Formation
 
-image:{link-logo-saclay}[height=50]
+image:{link-logo-saclay}[width=200]
 
-image:{link-logo-supelec}[height=50]
+image:{link-logo-supelec}[width=200]
 
-image:{link-logo-ets}[height=50]
+image:{link-logo-ets}[width=200]
 
-image:{link-logo-imb}[height=50]
+image:{link-logo-imb}[width=200]
 
-image:{link-logo-ubordeaux}[height=50]
+image:{link-logo-ubordeaux}[width=200]
 
-image:{link-logo-enp}[height=50]
+image:{link-logo-enp}[width=200]
 
 
 == Contactez-moi
