@@ -15,9 +15,8 @@ image::https://media.licdn.com/dms/image/C5622AQGFxfhf55X2mw/feedshare-shrink_20
 
 Mon profil professionnel se distingue par mon adaptabilité, mon esprit d'équipe, ma communication efficace, mon autonomie, mon leadership naturel, ma persévérance et ma gestion efficace du temps. J'ai eu le privilège de collaborer avec des entreprises de renom telles que GreenFlex - Total Énergie, SNCF Réseau, TAG Heuer - LVMH, Drone Volt Group, Institut d'Astrophysique Spatiale, Ecole Polytech Paris Sud, Openclassrooms et M2iFormation.
 
-
 .Photo prise lors de la présentation à CentraleSupélec du projet du telescope JWST de la NASA / ESA / CSA
-image::https://media.licdn.com/dms/image/C4D2DAQFMo4iMcKwHRA/profile-treasury-image-shrink_1920_1920/0/1611737587175?e=1715533200&v=beta&t=tH5w0DEenhSCCjxmxYVof_G5KB_-PtayC6B8EkzD5xY[height=400px, align="center"]
+image::https://media.licdn.com/dms/image/C4D2DAQFMo4iMcKwHRA/profile-treasury-image-shrink_1920_1920/0/1611737587175?e=1715533200&v=beta&t=tH5w0DEenhSCCjxmxYVof_G5KB_-PtayC6B8EkzD5xY[height=400px,float="right"]
 
 En tant que formateur, j'ai eu l'opportunité de former plus de 50 consultants issus d'entreprises prestigieuses telles que le Boston Consulting Group, TF1, Bouygues, Sopra Steria, BPCE, Atos et Micropole, notamment sur des sujets tels que Spark, Databricks et la Data Science. En tant que mentor spécialisé en Data Science et Machine Learning, j'ai accompagné plus de 20 professionnels via la plateforme OpenClassrooms. Mon expérience en tant que mentor à l'École Polytech Paris Sud pendant trois ans a renforcé ma capacité à transmettre mes connaissances et à soutenir le développement académique et professionnel des étudiants.
 

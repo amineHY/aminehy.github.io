@@ -8,7 +8,7 @@ paginate = 20
 
 # Site meta data
 [params]
-author = "Amine Hadj-Youcef"
+# author = "Amine Hadj-Youcef"
 info = "Senior Engineer / Scientist - MLops"
 description = "Amine Hadj-Youcef's personal website"
 keywords = "blog,developer,personal"
@@ -21,6 +21,8 @@ enableTwemoji = true
 colorScheme = "auto"
 hidecolorschemetoggle = false
 darkmode = false
+author = "Amine Hadj-Youcef"
+
 
 # Markup settings
 [markup]
@@ -84,7 +86,7 @@ url = "https://amine-hy.medium.com/"
 
 [[params.social]]
 name = "Google Scholar"
-icon = "fa fa-google fa-2x"
+icon = "fa fa-graduation-cap fa-2x"
 weight = 3
 url = "https://scholar.google.com/citations?user=NXUvxIMAAAAJ&hl=en"
 

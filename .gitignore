@@ -12,7 +12,7 @@
 *.exe
 *.out
 *.app
-
+themes
 # OS Generated Files
 .DS_Store
 .DS_Store?

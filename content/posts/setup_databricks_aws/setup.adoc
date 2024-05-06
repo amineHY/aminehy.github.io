@@ -7,6 +7,15 @@ categories:
     - Data science
     - Data Engineering
 ---
+:sectnums:
+:toc:
+:toc-title: Sommaire
+:icons: font
+:icon-set: fa
+// ##############################################
+// ##############################################
+// ##############################################
+
 
 
 == Introduction
