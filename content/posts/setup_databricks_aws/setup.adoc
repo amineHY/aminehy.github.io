@@ -1,0 +1,239 @@
+---
+title: "Setup of Databricks on AWS"
+date: 2024-05-01T09:35:18+01:00
+draft: false
+categories:
+    - Machine Learning
+    - Data science
+    - Data Engineering
+---
+
+
+== Introduction
+
+Databricks is a unified data analytics platform that provides a fully managed cloud-based environment for data engineering, data science, and machine learning workloads.
+
+This article outlines the main steps to follow for setting up a Databricks architecture on AWS.
+
+
+== Steps for Setting Up a Databricks Architecture
+Here are the main steps to follow for setting up a Databricks architecture on AWS as part of the migration to Databricks:
+
+. **Evaluation of the Existing Environment**: Start by analyzing the current infrastructure, data sources, transformations, workloads, and dependencies. This will help you understand the specific requirements and plan the migration.
+
+. **Design of the Databricks Architecture**: Define the Databricks architecture, including the number of clusters, node configuration (instance type, number of cores, memory), storage (S3, ADLS, etc.), network connectivity, and security (IAM, virtual networks, etc.).
+
+. **Configuration of the AWS Environment**: Set up the necessary AWS environment, such as accounts, IAM roles, virtual networks, security groups, etc.
+
+. **Deployment of Databricks**: Deploy the Databricks environment on AWS, creating the workspace, clusters, libraries, etc.
+
+. **Data Migration**: Migrate the source data from its current location to AWS storage (S3, ADLS, etc.) using tools like AWS DataSync, Distcp, or custom scripts.
+
+. **Migration of Transformations**: Convert the existing transformations into Databricks notebooks or Databricks pipeline tasks. You can use automated migration tools or perform a manual conversion.
+
+. **Testing and Validation**: Test the migrated transformations and validate the results to ensure that the data and business logic are correctly transferred.
+
+. **Training and Documentation**: Train the team on the use of Databricks and document the processes, pipelines, and best practices.
+
+. **Production Deployment**: Once testing is successful, deploy the Databricks clusters, pipelines, and workloads into production.
+
+. **Monitoring and Maintenance**: Establish monitoring processes, log management, updates, and maintenance of the Databricks environment.
+
+During the first days of the mission, you should focus on the following points:
+
+- Understand the client's business and technical requirements
+- Evaluate the existing environment
+- Design a preliminary Databricks architecture
+- Set up AWS accounts and required services
+- Deploy a basic Databricks environment for testing
+
+
+
+
+
+
+== Setup Databricks on AWS
+
+=== Sign up to Databricks (AWS cloud)
+
+* Head over to https://databricks.com/try-databricks and create a new databricks account. Make sure to enter the workspace name and AWS region
++
+image::/steps/Let's%20set%20up%20your%20first%20workspace.png[]
+
+
+* After clicking on the URL sent by email, you will be redirected to this databricks page :
++
+.https://accounts.cloud.databricks.com/workspaces?showFinishQuickstartModal=true
+image::/steps/Pasted%20Graphic%203.png[]
+
+.NOTE
+* Email adresse of the Databricks Onboarding Desk :  onboarding-help@databricks.com
+
+
+
+// === Finishing the Setup in AWS
+
+// ==== Sign in to AWS using root user
+
+
+// .link:https://signin.aws.amazon.com/signin[Amazon Web Services Sign-In]
+// image::/steps/Sign%20in.png[]
+
+
+=== Create a Databricks workspace
+
+Click on `Create a workspace` button on Databricks and chose `Quickstart (Recommended)` option
+
+image::/steps/image_2024-05-06-11-45-03_.png[]
+
+image::/steps/image_2024-05-06-11-45-44_.png[]
+
+image::/steps/image_2024-05-06-11-41-26_.png[]
+
+
+By clicking on `Start Quickstart`, you will be directed to AWS.
+
+=== Setup a stack on AWS
+Next, we have to create a stack on AWS using a template provided by Databricks link:https://databricks-prod-public-cfts.s3.us-west-2.amazonaws.com/templates/uc-by-default-via-backend-oauth/databricks-trial.template.yaml[databricks-trial.template.yaml]
+
+.AWS CloudFormation
+image::/steps/image_2024-05-06-11-42-34_.png[]
+
+.Create AWS Stack
+image::/steps/image_2024-05-06-12-40-35_.png[]
+
+=== Understand the stack template
+The template sets up the following (*IAM Role, S3 Bucket, Lambda Function*) resources for deploying a Databricks workspace on AWS:
+
+* *IAM Role* (`workspaceIamRole`): This role is assumed by Databricks to manage resources within your AWS account, such as creating VPCs, subnets, security groups, and EC2 instances.
+* *S3 Bucket* (`workspaceS3Bucket`): This bucket is used as the root storage location for the Databricks workspace. It stores notebook files, data, and other artifacts.
+* *IAM Role* (`catalogIamRole`): This role is used by Databricks to access the S3 bucket for the Unity Catalog metastore.
+* *Lambda Function* (`createCredentials`): This function interacts with the Databricks API to create credentials for the workspace, associating it with the `workspaceIamRole`.
+* *Lambda Function* (`createStorageConfiguration`): This function interacts with the Databricks API to create a storage configuration for the workspace, associating it with the `workspaceS3Bucket` and the `catalogIamRole`.
+* *Lambda Function* (`createWorkspace`): This function interacts with the Databricks API to create the Databricks workspace itself, using the credentials and storage configuration created by the previous Lambda functions.
+* *Lambda Function* (`databricksApiFunction`): This is a helper function that the other Lambda functions use to interact with the Databricks API.
+* *IAM Role* (`functionRole`): This role is assumed by the Lambda functions to perform their respective tasks.
+* *S3 Bucket* (`LambdaZipsBucket`): This bucket is used to store the Lambda function code (lambda.zip) during the deployment process.
+
+The relationships between these resources can be summarized as follows:
+
+* The `workspaceIamRole` and `catalogIamRole` are associated with the Databricks workspace during its creation.
+* The `workspaceS3Bucket` is used as the root storage location for the Databricks workspace.
+* The `createCredentials`, `createStorageConfiguration`, and `createWorkspace` Lambda functions interact with the Databricks API to set up the required components (credentials, storage configuration, and workspace) for the Databricks deployment.
+* The `databricksApiFunction` Lambda function is used by the other Lambda functions to interact with the Databricks API.
+* The `functionRole` is assumed by the Lambda functions to perform their respective tasks.
+* The `LambdaZipsBucket` is used to store the Lambda function code during the deployment process.
+
+=== Create a stack on AWS
+
+Here is the list of parameters to enter in the `stack creation` page :
+
+* Stack name, e.g. databricks-workspace-stack-9eccc
+* Account ID (AccountId), e.g. 6b922be2-a681-4ca1-91f0-4069055b61e2
++
+image:/steps/image_2024-05-06-11-51-46_.png[]
+* Session Token (SessionToken): auto generated from Databricks
+* Workspace name (WorkspaceName), e.g. rd
+* *IAM role* - optional
+
+
+
+Click on `Create Stack` button, multiple events will be displayed regarding our `stack creation`
+
+.CREATE IN PROGRESS
+image::/steps/image_2024-05-06-11-59-06_.png[]
+
+.CREATE COMPLETE
+image::/steps/image_2024-05-06-12-00-55_.png[]
+=== Using Databricks Workspace
+
+.https://accounts.cloud.databricks.com/workspaces
+image::/steps/image_2024-05-06-18-07-12_.png[]
+
+.link:https://accounts.cloud.databricks.com/workspaces/512881696647569[accounts.cloud.databricks.com/workspaces/512881696647569]
+image::/steps/image_2024-05-06-18-10-19_.png[]
+
+.link:https://dbc-1468cab5-5250.cloud.databricks.com/?autoLogin=true&account_id=6b926be2-a681-4ca1-91f0-4069055b61e2&o=512881696647569[dbc-1468cab5-5250.cloud.databricks.com]
+image::/steps/image_2024-05-06-18-11-08_.png[]
+
+=== AWS Stack for different Databricks Workspace
+
+The template for creating AWS Stack could be used to replicate a stack for as many workspace as required.
+
+Possible workspace names:
+
+* Prod for Production
+* Pre Prod (pp) for Production
+* Dev or Rd for Development
+* Test or QA for Quality Assurance
+* Staging for Staging
+
+or by adding a reference for country, team...
+
+* Prod-EU-DataTeam
+* Dev-US-ProjectX
+
+== Platform Administration Cheat-sheet
+
+.link:https://docs.databricks.com/en/cheat-sheet/administration.html[Administration Cheat-Sheet]
+|===
+a| Best Practice a| Impact a| Docs
+
+a| Enable Unity Catalog
+a| **Data governance**: Unity Catalog provides centralized access control, auditing, lineage, and data discovery capabilities across Databricks workspaces.
+a|
+* link:https://docs.databricks.com/en/data-governance/unity-catalog/get-started.html[Set up and manage Unity Catalog]
+a| Use cluster policies
+a| **Cost**: Control costs with auto-termination (for all-purpose clusters), max cluster sizes, and instance type restrictions.
+**Observability**: Set `custom_tags` in your cluster policy to enforce tagging.
+**Security**: Restrict cluster access mode to only allow users to create Unity Catalog-enabled clusters to enforce data permissions.
+a| * link:https://docs.databricks.com/en/admin/clusters/policies.html[Create and manage cluster policies]
+* link:https://docs.databricks.com/en/admin/account-settings/usage-detail-tags.html[Monitor cluster usage with tags]
+
+a| Use Service Principals to connect to third-party software
+a| **Security**: A service principal is a Databricks identity type that allows third-party services to authenticate directly to Databricks, not through an individual user's credentials.
+If something happens to an individual user's credentials, the third-party service won't be interrupted.
+a| * link:https://docs.databricks.com/en/admin/users-groups/service-principals.html[Create and manage service principals]
+
+a| Set up SSO
+a| **Security**: Instead of having users type their email and password to log into a workspace, set up Databricks SSO so users can authenticate via your identity provider.
+a| * link:https://docs.databricks.com/en/security/auth-authz/index.html#sso[Set up SSO for your workspace]
+
+a| Set up SCIM integration
+a| **Security**: Instead of adding users to Databricks manually, integrate with your identity provider to automate user provisioning and deprovisioning. When a user is removed from the identity provider, they are automatically removed from Databricks too.
+a| * link:https://docs.databricks.com/en/admin/users-groups/scim/index.html[Sync users and groups from your identity provider]
+
+a| Manage access control with account-level groups
+a| **Data governance**: Create account-level groups so you can bulk control access to workspaces, resources, and data. This saves you from having to grant all users access to everything or grant individual users specific permissions.
+You can also sync groups from your identity provider to Databricks groups.
+a| * link:https://docs.databricks.com/en/admin/users-groups/groups.html[Manage groups]
+* link:https://docs.databricks.com/en/security/auth-authz/access-control/index.html[Control access to resources]
+* link:https://docs.databricks.com/en/admin/users-groups/best-practices.html#scim-provisioning[Sync groups from your IdP to Databricks]
+* link:https://docs.databricks.com/en/data-governance/index.html[Data governance guide]
+
+a| Set up IP access for IP whitelisting
+a| **Security**: IP access lists prevent users from accessing Databricks resources in unsecured networks. Accessing a cloud service from an unsecured network can pose security risks to an enterprise, especially when the user may have authorized access to sensitive or personal data
+Make sure to set up IP access lists for your account console and workspaces.
+a| * link:https://docs.databricks.com/en/security/network/front-end/ip-access-list-workspace.html[Create IP access lists for workspaces]
+* link:https://docs.databricks.com/en/security/network/front-end/ip-access-list-account.html[Create IP access lists for the account console]
+
+a| Configure a customer-managed VPC with regional endpoints
+a| **Security**: You can use a customer-managed VPC to exercise more control over your network configurations to comply with specific cloud security and governance standards your organization might require.
+**Cost**: Regional VPC endpoints to AWS services have a more direct connections and reduced cost compared to AWS global endpoints.
+a| * link:https://docs.databricks.com/en/security/network/classic/customer-managed-vpc.html[Customer-managed VPC]
+
+a| Use Databricks Secrets or a cloud provider secrets manager
+a| **Security**: Using Databricks secrets allows you to securely store credentials for external data sources. Instead of entering credentials directly into a notebook, you can simply reference a secret to authenticate to a data source.
+a| * link:https://docs.databricks.com/en/security/secrets/index.html[Manage Databricks secrets]
+
+a| Set expiration dates on personal access tokens (PATs)
+a| **Security**: Workspace admins can manage PATs for users, groups, and service principals. Setting expiration dates for PATs reduces the risk of lost tokens or long-lasting tokens that could lead to data exfiltration from the workspace.
+a| * link:https://docs.databricks.com/en/admin/access-control/tokens.html[Manage personal access tokens]
+
+a| Use system tables to monitor account usage
+a| **Observability**: System tables are a Databricks-hosted analytical store of your account's operational data, including audit logs, data lineage, and billable usage. You can use system tables for observability across your account.
+a| * link:https://docs.databricks.com/en/admin/system-tables/index.html[Monitor usage with system tables]
+|===
+
+== Ressource
+* link:https://docs.databricks.com/en/getting-started/onboarding-account.html?utm_source=cep&utm_medium=email&utm_content=classicwelcome[Get started: Databricks workspace onboarding | Databricks on AWS]

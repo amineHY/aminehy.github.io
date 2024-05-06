@@ -25,7 +25,8 @@ link:https://ieeexplore.ieee.org/abstract/document/9103043[Fast Joint Multiband 
 Hadj-Youcef, M. A. (2016). link:https://www.aanda.org/articles/aa/abs/2016/12/aa29080-16/aa29080-16.html[Convolution kernels for multi-wavelength imaging, window=_blank]. _October_, 7.
 
 == Articles publiés dans des conférences internationales
-
+ 2525  brew edit asciidoctor\n
+ 2526  brew info ruby\n
 . Hadj-Youcef, M. A., Bousbia-Salah, A., & Adnane, M. (2018). link:https://ieeexplore.ieee.org/abstract/document/8613366[Feature selection applied to wavelet packet transform for an efficient EEG signal classification, window=_blank]. 2018 International Conference on Electrical Sciences and Technologies in Maghreb.
 
 . Hadj-youcef, M. A., & Abergel, A. (2017). link:https://hal.science/hal-01596257/[Restauration d’objets astrophysiques à partir de données multispectrales floues et une réponse instrument non stationnaire, window=_blank]. Gdr Isis, 123(908), 2017.

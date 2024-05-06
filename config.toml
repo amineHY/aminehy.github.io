@@ -1,10 +1,9 @@
 # Main
 baseurl = "https://aminehy.github.io/"
-title = "AHY"
+title = "Amine HY"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-
 paginate = 20
 
 # Site meta data
@@ -15,17 +14,12 @@ description = "Amine Hadj-Youcef's personal website"
 keywords = "blog,developer,personal"
 avatarURL = "https://aminehy.github.io/assets/images/photo_linkedin_2020.png"
 gravatar = "hadjyoucef.amine@gmail.com"
-
 favicon_32 = "favicon.ico"
 favicon_16 = "favicon.ico"
-
 since = 2024
-
 enableTwemoji = true
-
 colorScheme = "auto"
 hidecolorschemetoggle = false
-
 darkmode = false
 
 # Markup settings
@@ -104,8 +98,6 @@ url = "https://cv.hal.science/mohamed-elamine-hadj-youcef"
 IsMultiLingual = true
 
 # Menu links
-
-
 [[menu.main]]
 name = "Blog"
 weight = 1
