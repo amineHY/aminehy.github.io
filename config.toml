@@ -9,7 +9,7 @@ paginate = 20
 # Site meta data
 [params]
 # author = "Amine Hadj-Youcef"
-info = "Senior Engineer / Scientist - MLops"
+info = "Lead Data Engineer / Scientist - AI Solution Architect"
 description = "Amine Hadj-Youcef's personal website"
 keywords = "blog,developer,personal"
 avatarURL = "https://aminehy.github.io/assets/images/photo_linkedin_2020.png"
@@ -21,7 +21,7 @@ enableTwemoji = true
 colorScheme = "auto"
 hidecolorschemetoggle = false
 darkmode = false
-author = "Amine Hadj-Youcef"
+author = "Amine Hadj-Youcef - PhD"
 
 
 # Markup settings
@@ -99,11 +99,11 @@ url = "https://cv.hal.science/mohamed-elamine-hadj-youcef"
 [[IsMultiLingual]]
 IsMultiLingual = true
 
-# Menu links
-[[menu.main]]
-name = "Blog"
-weight = 1
-url = "posts/"
+# # Menu links
+# [[menu.main]]
+# name = "Blog"
+# weight = 1
+# url = "posts/"
 
 [[menu.main]]
 name = "Articles"
@@ -129,5 +129,5 @@ url = "about/"
 [security.exec]
 allow = ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$", "^asciidoctor$"]
 
-[asciidoctor]
-path = "/opt/homebrew/opt/ruby/bin/asciidoctor"
+# [asciidoctor]
+# path = "/opt/homebrew/opt/ruby/bin/asciidoctor"

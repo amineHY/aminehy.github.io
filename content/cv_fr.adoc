@@ -1,10 +1,13 @@
 ---
-title: "CV : Senior Data Engineer / Scientist - MLops "
+title: "CV"
 date: 2023-03-05T19:04:47+01:00
 draft: false
 ---
 
 == Expérience Professionnelle
+
+*Engie Solutions* (la Défense, France) Technical lead d'une nouvelle Plateforme d'intelligence de données sur le Cloud, et migration de projets de Informatica vers Databricks.
+
 
 *GreenFlex – Filiale Total Energie* (Paris, France) Amélioration de la plate-forme GreenFlex-IQ en production, conception et implémentation de pipelines de données sur Databricks et AWS, déploiement de modèles de machine learning, et intégration de LLM pour l’automatisation de la saisie des factures.
 
