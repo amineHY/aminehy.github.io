@@ -52,3 +52,4 @@
 :link-logo-enp: https://www.enp.edu.dz/storage/2020/06/logo-ENP-hd-1024x897-1.png
 :link-logo-ubordeaux: https://upload.wikimedia.org/wikipedia/commons/e/e9/Universit%C3%A4t_Bordeaux_Logo.svg
 :link-logo-imb: https://th.bing.com/th/id/OIP.6-LxfqwLjkdgoNsgyLAP2gHaFO?rs=1&pid=ImgDetMain
+:link-logo-esf: https://www.kindpng.com/picc/m/675-6759846_logo-engie-solutions-hd-png-download.png
