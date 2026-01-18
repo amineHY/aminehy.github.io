@@ -1,0 +1,148 @@
+---
+title: "About"
+date: 2023-03-05T15:04:43+01:00
+draft: false
+---
+
+:icons: font
+include::content/common/config/config_urls.adoc[]
+
+== Who I Am
+
+I'm a **PhD-level AI Engineer with 10+ years of experience** specializing in Machine Learning, Data Engineering, and Cloud Architecture. I build scalable AI platforms that solve real-world problems in energy, transportation, finance, and industry.
+
+image::/images/jwst_phd.jpeg[height=300px,float="right",caption="Presenting JWST telescope project at CentraleSupélec (Paris-Saclay)"]
+
+My approach combines academic rigor with pragmatic engineering — delivering production-ready solutions that create measurable business impact.
+
+---
+
+== What I Do
+
+=== icon:cog[] **AI & Machine Learning**
+* Supervised & unsupervised learning
+* Natural Language Processing (NLP)
+* Transformers & Large Language Models (LLMs)
+* Computer vision & signal processing
+* Predictive analytics & anomaly detection
+
+=== icon:database[] **Data Engineering & Big Data**
+* Apache Spark, Kafka, Airflow
+* Data lakes & Delta Lake architecture
+* Real-time streaming pipelines
+* ETL/ELT at scale
+
+=== icon:cloud[] **Cloud & MLOps**
+* AWS, GCP, Azure platforms
+* MLflow, Kubeflow, Docker, Kubernetes
+* CI/CD for ML models
+* Infrastructure as Code (Terraform)
+
+=== icon:code[] **Programming & Tools**
+Python • Scala • SQL • PySpark • TensorFlow • PyTorch • scikit-learn
+
+---
+
+== Experience & Clients
+
+Over the past decade, I've collaborated with leading organizations across multiple industries:
+
+[cols="1,1,1", frame=none, grid=none]
+|===
+| image:{link-logo-greenflex}[width=150] | image:{link-logo-sncf}[width=150] | image:{link-logo-tag}[width=150]
+| image:{link-logo-dv}[width=150] | image:{link-logo-ias}[width=150] | image:{link-logo-esf}[width=150]
+|===
+
+**Key achievements:**
+
+* icon:check[] Designed and deployed ML pipelines processing millions of records daily
+* icon:check[] Architected cloud-native data platforms reducing infrastructure costs by 40%
+* icon:check[] Built real-time anomaly detection systems for energy optimization
+* icon:check[] Led migration of legacy systems to modern cloud architectures
+* icon:check[] Developed LLM-based solutions for document analysis and classification
+
+---
+
+== Teaching & Mentoring
+
+I'm passionate about sharing knowledge and developing talent:
+
+**icon:users[] 50+ consultants trained** from top firms including:
+
+[cols="1,1,1,1", frame=none, grid=none]
+|===
+| image:{link-logo-atos}[width=120] | image:{link-logo-tf1}[width=120] | image:{link-logo-bouygues}[width=120] | _BCG, BPCE, Sopra_
+|===
+
+**Topics:** Apache Spark, Databricks, Data Science, Machine Learning Engineering
+
+**icon:graduation-cap[] 20+ professionals mentored** via OpenClassrooms in Data Science & ML
+
+**icon:university[] 3 years as mentor** at École Polytech Paris Sud
+
+.Review from mentee Fayz
+image::/images/image_2024-05-05-18-30-00_.png[width=500,align="center"]
+
+---
+
+== Publications & Research
+
+icon:book[] **8 peer-reviewed publications** in international journals and conferences
+
+**Selected venues:** EUSIPCO, WoSSPA, GRETSI
+
+.Citation metrics (link:https://scholar.google.fr/citations?hl=en&user=NXUvxIMAAAAJ[Google Scholar])
+image::/images/image_2024-12-29-13-10-59_.png[height=300px, align="center"]
+
+link:/publications/[icon:arrow-right[] View full publication list]
+
+---
+
+== Skills Matrix
+
+[cols="2,5", options="header"]
+|===
+| Domain | Technologies & Expertise
+
+| **Machine Learning**
+| Supervised learning, NLP, Transformers, LLMs, Computer Vision, Time Series, Anomaly Detection
+
+| **Data Engineering**
+| Apache Spark, Kafka, Airflow, Delta Lake, Databricks, Data Warehousing, ETL/ELT
+
+| **Cloud Platforms**
+| AWS (EMR, S3, Lambda, SageMaker), GCP (BigQuery, Dataflow), Azure
+
+| **MLOps & DevOps**
+| MLflow, Kubeflow, Docker, Kubernetes, CI/CD, Terraform, Git
+
+| **Programming**
+| Python, Scala, SQL, PySpark, Bash
+
+| **Frameworks**
+| TensorFlow, PyTorch, scikit-learn, Hugging Face, Pandas, NumPy
+
+| **Databases**
+| PostgreSQL, MongoDB, Cassandra, Redis
+
+| **Languages**
+| French (native), English (fluent), Arabic (native)
+|===
+
+---
+
+== icon:envelope[] Contact
+
+I'm always interested in challenging AI/ML projects, consulting opportunities, and speaking engagements.
+
+**icon:linkedin[] LinkedIn:** https://www.linkedin.com/in/aminehy/[linkedin.com/in/aminehy]
+
+**icon:github[] GitHub:** https://github.com/aminehy/[github.com/aminehy]
+
+**icon:graduation-cap[] Google Scholar:** https://scholar.google.com/citations?user=NXUvxIMAAAAJ[View publications]
+
+**icon:envelope[] Email:** hadjyoucef.amine@gmail.com
+
+---
+
+_Based in Île-de-France, available for projects in France and internationally_

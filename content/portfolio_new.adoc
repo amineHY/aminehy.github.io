@@ -14,21 +14,19 @@ Below are selected projects demonstrating my expertise in AI/ML, Data Engineerin
 
 === icon:bolt[] Real-Time Energy Optimization Platform
 
-*Client:* Major energy company (GreenFlex - Total Énergie)
+**Client:** Major energy company (GreenFlex - Total Énergie)
 
-*Challenge:* Optimize energy consumption across 500+ industrial sites in real-time
+**Challenge:** Optimize energy consumption across 500+ industrial sites in real-time
 
-*Solution:*
-
+**Solution:**
 * Designed streaming data pipeline processing 10M+ sensor readings/day
 * Built ML models for predictive consumption analysis
 * Implemented anomaly detection for equipment failures
 * Created real-time dashboard for operations teams
 
-*Technologies:* Apache Kafka, Spark Streaming, Python, AWS (Kinesis, Lambda, S3), TimescaleDB
+**Technologies:** Apache Kafka, Spark Streaming, Python, AWS (Kinesis, Lambda, S3), TimescaleDB
 
-*Impact:*
-
+**Impact:** 
 * icon:check[] 25% reduction in energy costs
 * icon:check[] 40% faster anomaly detection
 * icon:check[] €2M+ annual savings
@@ -37,21 +35,19 @@ Below are selected projects demonstrating my expertise in AI/ML, Data Engineerin
 
 === icon:train[] Predictive Maintenance for Rail Infrastructure
 
-*Client:* SNCF Réseau (French National Railway)
+**Client:** SNCF Réseau (French National Railway)
 
-*Challenge:* Predict equipment failures before they cause service disruptions
+**Challenge:** Predict equipment failures before they cause service disruptions
 
-*Solution:*
-
+**Solution:**
 * Developed ML pipeline analyzing historical maintenance data
 * Built ensemble models (Random Forest, XGBoost, LSTM)
 * Integrated with existing CMMS systems
 * Automated alerting system for maintenance teams
 
-*Technologies:* Python, scikit-learn, TensorFlow, PostgreSQL, Airflow, Docker
+**Technologies:** Python, scikit-learn, TensorFlow, PostgreSQL, Airflow, Docker
 
-*Impact:*
-
+**Impact:**
 * icon:check[] 35% reduction in unplanned maintenance
 * icon:check[] 15% increase in equipment uptime
 * icon:check[] Prevented 50+ service disruptions in first year
@@ -60,21 +56,19 @@ Below are selected projects demonstrating my expertise in AI/ML, Data Engineerin
 
 === icon:comments[] LLM-Based Document Classification System
 
-*Client:* Luxury goods manufacturer (TAG Heuer - LVMH)
+**Client:** Luxury goods manufacturer (TAG Heuer - LVMH)
 
-*Challenge:* Automatically classify and route 10,000+ customer service documents monthly
+**Challenge:** Automatically classify and route 10,000+ customer service documents monthly
 
-*Solution:*
-
+**Solution:**
 * Fine-tuned transformer models (BERT, RoBERTa) on domain-specific data
 * Built API service for real-time classification
 * Implemented active learning pipeline for continuous improvement
 * Created multilingual support (French, English, German, Chinese)
 
-*Technologies:* Hugging Face Transformers, PyTorch, FastAPI, Docker, Kubernetes, MLflow
+**Technologies:** Hugging Face Transformers, PyTorch, FastAPI, Docker, Kubernetes, MLflow
 
-*Impact:*
-
+**Impact:**
 * icon:check[] 92% classification accuracy
 * icon:check[] 80% reduction in manual routing time
 * icon:check[] Processing time reduced from 2 days to 5 minutes
@@ -83,22 +77,20 @@ Below are selected projects demonstrating my expertise in AI/ML, Data Engineerin
 
 === icon:cloud[] Cloud Data Platform Migration
 
-*Client:* Multiple enterprise clients
+**Client:** Multiple enterprise clients
 
-*Challenge:* Migrate on-premise data infrastructure to cloud-native architecture
+**Challenge:** Migrate on-premise data infrastructure to cloud-native architecture
 
-*Solution:*
-
+**Solution:**
 * Designed cloud-native architecture (AWS/GCP)
 * Migrated ETL pipelines to Spark on Databricks
 * Implemented data lake using Delta Lake
 * Set up CI/CD pipelines for data workflows
 * Trained client teams on new platform
 
-*Technologies:* AWS (S3, EMR, Glue), Databricks, Delta Lake, Terraform, GitLab CI
+**Technologies:** AWS (S3, EMR, Glue), Databricks, Delta Lake, Terraform, GitLab CI
 
-*Impact:*
-
+**Impact:**
 * icon:check[] 40% infrastructure cost reduction
 * icon:check[] 10x faster query performance
 * icon:check[] 60% reduction in pipeline development time
@@ -107,21 +99,19 @@ Below are selected projects demonstrating my expertise in AI/ML, Data Engineerin
 
 === icon:video-camera[] Computer Vision for Drone Inspection
 
-*Client:* Drone Volt Group
+**Client:** Drone Volt Group
 
-*Challenge:* Automate infrastructure inspection using drone footage
+**Challenge:** Automate infrastructure inspection using drone footage
 
-*Solution:*
-
+**Solution:**
 * Built CNN models for defect detection in images/video
 * Developed real-time inference pipeline
 * Created web interface for inspection reports
 * Trained models on custom-labeled dataset (50K+ images)
 
-*Technologies:* PyTorch, OpenCV, FastAPI, React, AWS SageMaker
+**Technologies:** PyTorch, OpenCV, FastAPI, React, AWS SageMaker
 
-*Impact:*
-
+**Impact:**
 * icon:check[] 70% faster inspection process
 * icon:check[] 95% defect detection accuracy
 * icon:check[] Reduced human error by 85%
@@ -130,19 +120,17 @@ Below are selected projects demonstrating my expertise in AI/ML, Data Engineerin
 
 === icon:chart-line[] Time Series Forecasting for Industrial Production
 
-*Challenge:* Forecast production volumes and resource requirements
+**Challenge:** Forecast production volumes and resource requirements
 
-*Solution:*
-
+**Solution:**
 * Implemented Prophet, LSTM, and Transformer-based forecasting models
 * Built automated retraining pipeline
 * Created interactive forecasting dashboard
 * Integrated with ERP systems
 
-*Technologies:* Prophet, TensorFlow, Plotly Dash, Airflow, PostgreSQL
+**Technologies:** Prophet, TensorFlow, Plotly Dash, Airflow, PostgreSQL
 
-*Impact:*
-
+**Impact:**
 * icon:check[] 15% improvement in forecast accuracy
 * icon:check[] Better resource allocation planning
 * icon:check[] €500K+ annual savings in inventory costs
@@ -153,10 +141,9 @@ Below are selected projects demonstrating my expertise in AI/ML, Data Engineerin
 
 === Data Science Blog & Tutorials
 
-*icon:medium[] Medium:* https://amine-hy.medium.com/[Technical articles on ML & Data Engineering]
+**icon:medium[] Medium:** https://amine-hy.medium.com/[Technical articles on ML & Data Engineering]
 
 Topics covered:
-
 * Apache Spark optimization techniques
 * MLOps best practices
 * Databricks workflow patterns
@@ -166,7 +153,7 @@ Topics covered:
 
 === Teaching Materials
 
-*icon:github[] GitHub:* https://github.com/aminehy/[Code repositories for courses]
+**icon:github[] GitHub:** https://github.com/aminehy/[Code repositories for courses]
 
 * Spark training materials (50+ consultants trained)
 * Data Science project templates
@@ -178,16 +165,16 @@ Topics covered:
 
 [cols="1,3", frame=none]
 |===
-| icon:cog[] *ML/AI*
+| icon:cog[] **ML/AI**
 | Supervised/Unsupervised Learning, NLP, Computer Vision, Time Series, LLMs, Anomaly Detection
 
-| icon:database[] *Data Engineering*
+| icon:database[] **Data Engineering**
 | Spark, Kafka, Airflow, Delta Lake, Data Lakes, Streaming, ETL/ELT
 
-| icon:cloud[] *Cloud & MLOps*
+| icon:cloud[] **Cloud & MLOps**
 | AWS, GCP, Azure, Databricks, MLflow, Kubernetes, CI/CD
 
-| icon:industry[] *Industries*
+| icon:industry[] **Industries**
 | Energy, Transportation, Luxury Goods, Finance, Aerospace
 |===
 
@@ -197,11 +184,11 @@ Topics covered:
 
 I'm available for:
 
-* icon:check[] *Consulting* on AI/ML projects
-* icon:check[] *Architecture design* for data platforms
-* icon:check[] *Technical training* for your teams
-* icon:check[] *Speaking engagements* at conferences/meetups
+* icon:check[] **Consulting** on AI/ML projects
+* icon:check[] **Architecture design** for data platforms
+* icon:check[] **Technical training** for your teams
+* icon:check[] **Speaking engagements** at conferences/meetups
 
-*Contact:* hadjyoucef.amine@gmail.com
+**Contact:** hadjyoucef.amine@gmail.com
 
 link:/about/[icon:arrow-right[] Learn more about my background]

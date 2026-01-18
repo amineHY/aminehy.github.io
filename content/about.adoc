@@ -1,5 +1,5 @@
 ---
-title: "À propos"
+title: "About"
 date: 2023-03-05T15:04:43+01:00
 draft: false
 ---
@@ -7,23 +7,117 @@ draft: false
 :icons: font
 include::content/common/config/config_urls.adoc[]
 
-Je suis un ingénieur chevronné avec une expérience de plus de 10 ans dans le domaine de l'Intelligence Artificielle, spécialisé dans l'ingénierie des solutions, l'analyse de données, le machine learning et la big data. Ma passion pour l'innovation technologique se reflète dans mon engagement à atteindre les objectifs des projets et des clients, tout en adoptant une approche pragmatique.
+== Who I Am
 
-
-Mon profil professionnel se distingue par mon adaptabilité, mon esprit d'équipe, ma communication efficace, mon autonomie, mon leadership naturel, ma persévérance et ma gestion efficace du temps. J'ai eu le privilège de collaborer avec des entreprises de renom telles que GreenFlex - Total Énergie, SNCF Réseau, TAG Heuer - LVMH, Drone Volt Group, Institut d'Astrophysique Spatiale, Ecole Polytech Paris Sud, Openclassrooms et M2iFormation.
+I'm a **PhD-level AI Engineer with 10+ years of experience** specializing in Machine Learning, Data Engineering, and Cloud Architecture. I build scalable AI platforms that solve real-world problems in energy, transportation, finance, and industry.
 
 .Photo prise lors de la présentation du projet du telescope link:https://www.bing.com/search?pglt=387&q=jwst&cvid=70babab884764d559d19b6a9f2010393&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQRRhBMgYICBBFGDzSAQc3NjJqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531[JWST] de la NASA / ESA / CSA à CentraleSupélec (Paris-Saclay)
-image::/images/jwst_phd.jpeg[height=400px,float="right"] 
+image::/images/jwst_phd.jpeg[height=300px,float="right"]
 
-En tant que formateur, j'ai eu l'opportunité de former plus de 50 consultants issus d'entreprises prestigieuses telles que le Boston Consulting Group, TF1, Bouygues, Sopra Steria, BPCE, Atos et Micropole, notamment sur des sujets tels que Spark, Databricks et la Data Science. En tant que mentor spécialisé en Data Science et Machine Learning, j'ai accompagné plus de 20 professionnels via la plateforme OpenClassrooms. Mon expérience en tant que mentor à l'École Polytech Paris Sud pendant trois ans a renforcé ma capacité à transmettre mes connaissances et à soutenir le développement académique et professionnel des étudiants.
+My approach combines academic rigor with pragmatic engineering — delivering production-ready solutions that create measurable business impact.
+
+---
+
+== What I Do
+
+=== icon:cog[] *AI & Machine Learning*
+* Supervised & unsupervised learning
+* Natural Language Processing (NLP)
+* Transformers & Large Language Models (LLMs)
+* Computer vision & signal processing
+* Predictive analytics & anomaly detection
+
+=== icon:database[] *Data Engineering & Big Data*
+* Apache Spark, Kafka, Airflow
+* Data lakes & Delta Lake architecture
+* Real-time streaming pipelines
+* ETL/ELT at scale
+
+=== icon:cloud[] *Cloud & MLOps*
+* AWS, GCP, Azure platforms
+* MLflow, Kubeflow, Docker, Kubernetes
+* CI/CD for ML models
+* Infrastructure as Code (Terraform)
+
+=== icon:code[] *Programming & Tools*
+Python • Scala • SQL • PySpark • TensorFlow • PyTorch • scikit-learn
+
+---
+
+== Experience & Clients
+
+Over the past decade, I've collaborated with leading organizations including *GreenFlex - Total Énergie*, *SNCF Réseau*, *TAG Heuer - LVMH*, *Drone Volt Group*, and research institutions.
+
+*Key achievements:*
+
+* icon:check[] Designed ML pipelines processing millions of records daily
+* icon:check[] Architected cloud-native platforms reducing costs by 40%
+* icon:check[] Built real-time anomaly detection for energy optimization
+* icon:check[] Led cloud migration projects for legacy systems
+* icon:check[] Developed LLM-based document analysis solutions
+
+---
+
+== Teaching & Mentoring
+
+I'm passionate about sharing knowledge and developing talent:
+
+*icon:users[] 50+ consultants trained* from Boston Consulting Group, TF1, Bouygues, Sopra Steria, BPCE, Atos, and Micropole on topics including Apache Spark, Databricks, and Data Science.
+
+*icon:graduation-cap[] 20+ professionals mentored* via OpenClassrooms in Data Science & Machine Learning.
+
+*icon:university[] 3 years as mentor* at École Polytech Paris Sud.
 
 .Review de Fayz suite au mentorat Machine Learning
-image::/images/image_2024-05-05-18-30-00_.png[align="center"]
+image::/images/image_2024-05-05-18-30-00_.png[width=500,align="center"]
 
-Par ailleurs, j'ai eu l'honneur de publier 8 articles scientifiques dans des journaux internationaux et de présenter mes travaux lors de conférences internationales telles que EUSIPCO, WoSSPA, GRETSI, entre autres.
+---
 
-.Quelques chiffres sur les publications (link:https://scholar.google.fr/citations?hl=en&user=NXUvxIMAAAAJ&view_op=list_works&gmla=AFix5MYo28lvUKZlgj12RwUTZqoxguLcZoyTTMf1zclF39fb084dxsmZSuvgbhFUwhQAWx5Wwr6a[https://scholar.google.fr])
-image::/images/image_2024-12-29-13-10-59_.png[height=400px, align="center"]
+== Publications & Research
+
+icon:book[] *8 peer-reviewed publications* in international journals and conferences
+
+*Selected venues:* EUSIPCO, WoSSPA, GRETSI
+
+.Quelques chiffres sur les publications (link:https://scholar.google.fr/citations?hl=en&user=NXUvxIMAAAAJ[Google Scholar])
+image::/images/image_2024-12-29-13-10-59_.png[height=300px, align="center"]
+
+link:/publications/[icon:arrow-right[] View full publication list]
+
+---
+
+== Skills Matrix
+
+[cols="2,5", options="header"]
+|===
+| Domain | Technologies & Expertise
+
+| *Machine Learning*
+| Supervised/Unsupervised, NLP, Transformers, LLMs, Computer Vision, Time Series, Anomaly Detection
+
+| *Data Engineering*
+| Apache Spark, Kafka, Airflow, Delta Lake, Databricks, Data Warehousing, ETL/ELT
+
+| *Cloud Platforms*
+| AWS (EMR, S3, Lambda, SageMaker), GCP (BigQuery, Dataflow), Azure
+
+| *MLOps & DevOps*
+| MLflow, Kubeflow, Docker, Kubernetes, CI/CD, Terraform, Git
+
+| *Programming*
+| Python, Scala, SQL, PySpark, Bash
+
+| *Frameworks*
+| TensorFlow, PyTorch, scikit-learn, Hugging Face, Pandas, NumPy
+
+| *Databases*
+| PostgreSQL, MongoDB, Cassandra, Redis
+
+| *Languages*
+| French (native), English (fluent), Arabic (native)
+|===
+
+---
 
 == Liste de clients
 

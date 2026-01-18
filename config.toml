@@ -9,9 +9,9 @@ pagination.pagerSize = 20
 # Site meta data
 [params]
 # author = "Amine Hadj-Youcef"
-info = "Tech Lead Data Platforms - Solution Architect"
-description = "Amine Hadj-Youcef's personal website"
-keywords = "blog,developer,personal"
+info = ["PhD – Lead Data Engineer & AI Architect", "Machine Learning • MLOps • Big Data • Cloud Architecture"]
+description = "Amine Hadj-Youcef – PhD in AI/ML with 10+ years building scalable AI & Data platforms for industry, energy, and finance"
+keywords = "machine learning,AI,data engineering,MLOps,big data,cloud architecture,data science,PhD,Paris"
 avatarURL = "https://aminehy.github.io/assets/images/photo_linkedin_2020.png"
 gravatar = "hadjyoucef.amine@gmail.com"
 favicon_32 = "favicon.ico"
@@ -105,24 +105,29 @@ IsMultiLingual = true
 # url = "posts/"
 
 [[menu.main]]
-name = "Articles"
+name = "About"
+weight = 1
+url = "about/"
+
+[[menu.main]]
+name = "Projects"
 weight = 2
+url = "portfolio/"
+
+[[menu.main]]
+name = "Articles"
+weight = 3
 url = "article/"
 
 [[menu.main]]
 name = "Publications"
-weight = 3
+weight = 4
 url = "publications/"
 
 [[menu.main]]
 name = "CV"
-weight = 4
-url = "cv_fr"
-
-[[menu.main]]
-name = "A propos"
 weight = 5
-url = "about/"
+url = "cv_fr"
 
 # SECURITY
 [security.exec]
