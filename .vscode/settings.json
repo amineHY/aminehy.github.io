@@ -20,5 +20,8 @@
     "titleBar.inactiveForeground": "#e7e7e799"
   },
   "peacock.color": "#2b1b66",
-  "asciidoc.antora.enableAntoraSupport": true
+  "asciidoc.antora.enableAntoraSupport": true,
+  "chat.tools.terminal.autoApprove": {
+    "asciidoctor": true
+  }
 }

@@ -4,7 +4,7 @@ title = "Amine HY"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-paginate = 20
+pagination.pagerSize = 20
 
 # Site meta data
 [params]
@@ -43,7 +43,6 @@ tabWidth = 4
 
 [markup.asciidocExt]
 backend = 'html5'
-extensions = ["coderay"]
 failureLevel = 'fatal'
 noHeaderOrFooter = true
 preserveTOC = true
@@ -52,9 +51,9 @@ sectionNumbers = false
 trace = false
 verbose = false
 workingFolderCurrent = false
-source-highlighter = "coderay"
 
 [markup.asciidocExt.attributes]
+source-highlighter = "coderay"
 stylesheet = "https://cdnjs.cloudflare.com/ajax/libs/coderay/1.1.2/stylesheets/coderay.min.css"
 hide-uri-scheme = true
 sectlinks = true
