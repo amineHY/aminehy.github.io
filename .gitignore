@@ -30,3 +30,5 @@ Thumbs.db
 # Hugo Files
 public/
 resources/
+
+node_modules
