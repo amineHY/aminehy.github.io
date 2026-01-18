@@ -9,7 +9,7 @@ paginate = 20
 # Site meta data
 [params]
 # author = "Amine Hadj-Youcef"
-info = "Lead Data Engineer / Scientist - AI Solution Architect"
+info = "Tech Lead Data Platforms - Solution Architect"
 description = "Amine Hadj-Youcef's personal website"
 keywords = "blog,developer,personal"
 avatarURL = "https://aminehy.github.io/assets/images/photo_linkedin_2020.png"
