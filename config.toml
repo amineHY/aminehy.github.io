@@ -22,6 +22,7 @@ colorScheme = "auto"
 hidecolorschemetoggle = false
 darkmode = false
 author = "Amine Hadj-Youcef - PhD"
+customSCSS = ["scss/custom.scss"]
 
 
 # Markup settings
@@ -128,6 +129,11 @@ url = "publications/"
 name = "CV"
 weight = 5
 url = "cv_fr"
+
+[[menu.main]]
+name = "Contact"
+weight = 6
+url = "contact/"
 
 # SECURITY
 [security.exec]

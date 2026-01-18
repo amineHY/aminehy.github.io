@@ -1,0 +1,112 @@
+{{ $description := .Description | default .Site.Params.description }}
+{{ $keywords := .Keywords | default .Site.Params.keywords }}
+{{ $author := .Params.author | default .Site.Params.author }}
+
+<!-- Enhanced SEO Meta Tags -->
+<meta name="description" content="{{ $description }}">
+<meta name="keywords" content="{{ $keywords }}">
+<meta name="author" content="{{ $author }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+<meta property="og:description" content="{{ $description }}">
+{{ with .Site.Params.avatarURL }}
+<meta property="og:image" content="{{ . }}">
+{{ end }}
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="{{ .Permalink }}">
+<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+<meta name="twitter:description" content="{{ $description }}">
+{{ with .Site.Params.avatarURL }}
+<meta name="twitter:image" content="{{ . }}">
+{{ end }}
+
+<!-- Additional Meta Tags -->
+<meta name="robots" content="index, follow">
+<meta name="language" content="English">
+<meta name="revisit-after" content="7 days">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Amine Hadj-Youcef",
+  "jobTitle": "PhD - Lead Data Engineer & AI Architect",
+  "url": "{{ .Site.BaseURL }}",
+  "image": "{{ .Site.Params.avatarURL }}",
+  "description": "{{ .Site.Params.description }}",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "École Polytech Paris Sud"
+  },
+  "knowsAbout": [
+    "Machine Learning",
+    "Data Engineering",
+    "Cloud Architecture",
+    "MLOps",
+    "Big Data",
+    "Artificial Intelligence",
+    "Apache Spark",
+    "Python",
+    "Natural Language Processing"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/aminehy/",
+    "https://github.com/aminehy/",
+    "https://scholar.google.com/citations?user=NXUvxIMAAAAJ",
+    "https://amine-hy.medium.com/"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "hadjyoucef.amine@gmail.com",
+    "contactType": "Professional"
+  }
+}
+</script>
+
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  {{ with .Lastmod }}"dateModified": "{{ .Format "2006-01-02T15:04:05Z07:00" }}",{{ end }}
+  "author": {
+    "@type": "Person",
+    "name": "{{ $author }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.Params.avatarURL }}"
+    }
+  },
+  "description": "{{ $description }}"
+}
+</script>
+{{ end }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "{{ .Site.BaseURL }}",
+  "name": "{{ .Site.Title }}",
+  "description": "{{ .Site.Params.description }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ .Site.BaseURL }}search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>

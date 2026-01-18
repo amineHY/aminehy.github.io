@@ -1,0 +1,244 @@
+// Custom styles for aminehy.github.io
+// Professional polish and brand colors
+
+// Brand Colors
+$accent-color: #2196F3;      // Professional blue
+$accent-hover: #1976D2;      // Darker blue for hover
+$success-color: #4CAF50;     // Green for success indicators
+$highlight: #FFC107;         // Amber for highlights
+
+// Improved Typography
+body {
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  border-bottom: 2px solid $accent-color;
+  padding-bottom: 0.5rem;
+  margin-top: 3rem;
+}
+
+// Section Dividers
+hr {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 3rem 0;
+}
+
+// Icon enhancements
+.fa {
+  color: $accent-color;
+  transition: color 0.3s ease;
+  
+  &:hover {
+    color: $accent-hover;
+  }
+}
+
+// Skills Matrix Table
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  
+  thead {
+    background: linear-gradient(135deg, $accent-color 0%, $accent-hover 100%);
+    color: white;
+    
+    th {
+      padding: 1rem;
+      font-weight: 600;
+      text-align: left;
+    }
+  }
+  
+  tbody {
+    tr {
+      border-bottom: 1px solid #f0f0f0;
+      transition: background 0.2s ease;
+      
+      &:hover {
+        background: #f8f9fa;
+      }
+      
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+    
+    td {
+      padding: 1rem;
+      
+      &:first-child {
+        font-weight: 600;
+        color: $accent-color;
+        width: 25%;
+      }
+    }
+  }
+}
+
+// Check icons for lists
+ul li {
+  margin-bottom: 0.5rem;
+  
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 0.5rem;
+    background: $accent-color;
+    border-radius: 50%;
+  }
+  
+  &:has(.fa-check) {
+    list-style: none;
+    
+    &::before {
+      content: none;
+    }
+  }
+}
+
+// Project cards styling
+.content {
+  h3 {
+    color: $accent-color;
+    border-left: 4px solid $accent-color;
+    padding-left: 1rem;
+    margin-left: -1rem;
+  }
+  
+  blockquote {
+    border-left: 4px solid $accent-color;
+    background: #f8f9fa;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+  }
+}
+
+// Image enhancements
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  }
+}
+
+// Contact section styling
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  
+  a {
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    
+    &:hover {
+      background: white;
+      border-color: $accent-color;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+  }
+}
+
+// Section badges
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: $accent-color;
+  color: white;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+// Impact metrics styling
+strong {
+  color: $accent-color;
+}
+
+// Code and technical terms
+code {
+  background: #f5f5f5;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+  border: 1px solid #e0e0e0;
+}
+
+// Navigation active state
+.navigation-link {
+  &.active {
+    color: $accent-color;
+    border-bottom: 2px solid $accent-color;
+  }
+}
+
+// Social icons enhancement
+.social-icons {
+  a {
+    margin: 0 0.5rem;
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.15);
+    }
+  }
+}
+
+// Responsive spacing
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  table {
+    font-size: 0.875rem;
+    
+    td, th {
+      padding: 0.75rem 0.5rem;
+    }
+  }
+}
+
+// Print styles
+@media print {
+  img {
+    box-shadow: none;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  table {
+    box-shadow: none;
+  }
+}
