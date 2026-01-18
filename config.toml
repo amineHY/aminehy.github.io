@@ -113,10 +113,7 @@ url = "about/"
 [[menu.main]]
 name = "Projects"
 weight = 2
-url = "portfolio/"
-
-[[menu.main]]
-name = "Articles"
+  url = "projects/"
 weight = 3
 url = "article/"
 
