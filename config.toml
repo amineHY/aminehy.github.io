@@ -9,7 +9,7 @@ pagination.pagerSize = 20
 # Site meta data
 [params]
 # author = "Amine Hadj-Youcef"
-info = ["PhD – Lead Data Engineer & AI Architect", "Machine Learning • MLOps • Big Data • Cloud Architecture"]
+info = ["PhD – Technical Lead Data Platform & Data-Driven Solution Architect", "Machine Learning • MLOps • Big Data • Cloud Architecture"]
 description = "Amine Hadj-Youcef – PhD in AI/ML with 10+ years building scalable AI & Data platforms for industry, energy, and finance"
 keywords = "machine learning,AI,data engineering,MLOps,big data,cloud architecture,data science,PhD,Paris"
 avatarURL = "https://aminehy.github.io/assets/images/photo_linkedin_2020.png"
