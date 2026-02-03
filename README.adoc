@@ -56,10 +56,11 @@ hugo server -D
 ----
 
 == Adding content
-Edit the Landing Page Content: Open the `content/_index.md` file and edit the content according to your needs. This file is written in Markdown format, so you can use Markdown syntax to structure your content, add headings, lists, images, etc.
+Hugo renders the homepage from `content/_index.*`. This repository currently keeps that file empty, so you can either:
 
+- copy an existing page and rename it to `content/_index.adoc` (or `_index.md`) with the desired front matter
+- or keep the file empty but use Hugo partials and the `content/common/` fragments to drive the hero/sections that the Hugo Coder theme expects
 
-
-// ^$\n\n+  =>  \n
+Once the file exists, edit it with Markdown or Asciidoc to add your hero, headings, lists, images, or Hugo shortcodes just like any other page.
 
 
